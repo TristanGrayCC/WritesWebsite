@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d653d2b9.css",
-    "main.js": "/static/js/main.3dab5457.js",
+    "main.css": "/static/css/main.2770607b.css",
+    "main.js": "/static/js/main.856022ad.js",
     "static/js/787.634917ec.chunk.js": "/static/js/787.634917ec.chunk.js",
     "static/media/TG Transparent Background.png": "/static/media/TG Transparent Background.8239088f416ee1c3c196.png",
     "static/media/Seann Aite.png": "/static/media/Seann Aite.44722a3ba10fb4d30fc2.png",
@@ -45,12 +45,12 @@
     "static/media/Kobo-logo.png": "/static/media/Kobo-logo.143740f6c8f9c3cd7a6f.png",
     "static/media/Apple Books Logo.png": "/static/media/Apple Books Logo.672d0ec0f76890762614.png",
     "index.html": "/index.html",
-    "main.d653d2b9.css.map": "/static/css/main.d653d2b9.css.map",
-    "main.3dab5457.js.map": "/static/js/main.3dab5457.js.map",
+    "main.2770607b.css.map": "/static/css/main.2770607b.css.map",
+    "main.856022ad.js.map": "/static/js/main.856022ad.js.map",
     "787.634917ec.chunk.js.map": "/static/js/787.634917ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d653d2b9.css",
-    "static/js/main.3dab5457.js"
+    "static/css/main.2770607b.css",
+    "static/js/main.856022ad.js"
   ]
 }
