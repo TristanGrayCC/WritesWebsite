@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.795ce43f.css",
-    "main.js": "/static/js/main.856022ad.js",
+    "main.js": "/static/js/main.b3b8f20c.js",
     "static/js/787.634917ec.chunk.js": "/static/js/787.634917ec.chunk.js",
     "static/media/TG Transparent Background.png": "/static/media/TG Transparent Background.8239088f416ee1c3c196.png",
     "static/media/Seann Aite.png": "/static/media/Seann Aite.44722a3ba10fb4d30fc2.png",
@@ -46,11 +46,11 @@
     "static/media/Apple Books Logo.png": "/static/media/Apple Books Logo.672d0ec0f76890762614.png",
     "index.html": "/index.html",
     "main.795ce43f.css.map": "/static/css/main.795ce43f.css.map",
-    "main.856022ad.js.map": "/static/js/main.856022ad.js.map",
+    "main.b3b8f20c.js.map": "/static/js/main.b3b8f20c.js.map",
     "787.634917ec.chunk.js.map": "/static/js/787.634917ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.795ce43f.css",
-    "static/js/main.856022ad.js"
+    "static/js/main.b3b8f20c.js"
   ]
 }
