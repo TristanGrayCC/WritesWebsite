@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.795ce43f.css",
-    "main.js": "/static/js/main.b3b8f20c.js",
+    "main.js": "/static/js/main.7af3a333.js",
     "static/js/787.634917ec.chunk.js": "/static/js/787.634917ec.chunk.js",
     "static/media/TG Transparent Background.png": "/static/media/TG Transparent Background.8239088f416ee1c3c196.png",
+    "static/media/The Woven Thread.png": "/static/media/The Woven Thread.c87f27e0935828b33040.png",
     "static/media/Seann Aite.png": "/static/media/Seann Aite.44722a3ba10fb4d30fc2.png",
     "static/media/A Gift of the Sea.png": "/static/media/A Gift of the Sea.039ddffb559f9b187789.png",
     "static/media/Portrait Whispers.png": "/static/media/Portrait Whispers.8e3c7f66386a57dc7d70.png",
@@ -46,11 +47,11 @@
     "static/media/Apple Books Logo.png": "/static/media/Apple Books Logo.672d0ec0f76890762614.png",
     "index.html": "/index.html",
     "main.795ce43f.css.map": "/static/css/main.795ce43f.css.map",
-    "main.b3b8f20c.js.map": "/static/js/main.b3b8f20c.js.map",
+    "main.7af3a333.js.map": "/static/js/main.7af3a333.js.map",
     "787.634917ec.chunk.js.map": "/static/js/787.634917ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.795ce43f.css",
-    "static/js/main.b3b8f20c.js"
+    "static/js/main.7af3a333.js"
   ]
 }
