@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.795ce43f.css",
-    "main.js": "/static/js/main.30ad9719.js",
+    "main.css": "/static/css/main.fbbfcf78.css",
+    "main.js": "/static/js/main.4276b5a6.js",
     "static/js/787.634917ec.chunk.js": "/static/js/787.634917ec.chunk.js",
     "static/media/TG Transparent Background.png": "/static/media/TG Transparent Background.8239088f416ee1c3c196.png",
     "static/media/The Woven Thread.png": "/static/media/The Woven Thread.c87f27e0935828b33040.png",
@@ -46,12 +46,12 @@
     "static/media/Kobo-logo.png": "/static/media/Kobo-logo.143740f6c8f9c3cd7a6f.png",
     "static/media/Apple Books Logo.png": "/static/media/Apple Books Logo.672d0ec0f76890762614.png",
     "index.html": "/index.html",
-    "main.795ce43f.css.map": "/static/css/main.795ce43f.css.map",
-    "main.30ad9719.js.map": "/static/js/main.30ad9719.js.map",
+    "main.fbbfcf78.css.map": "/static/css/main.fbbfcf78.css.map",
+    "main.4276b5a6.js.map": "/static/js/main.4276b5a6.js.map",
     "787.634917ec.chunk.js.map": "/static/js/787.634917ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.795ce43f.css",
-    "static/js/main.30ad9719.js"
+    "static/css/main.fbbfcf78.css",
+    "static/js/main.4276b5a6.js"
   ]
 }
