@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.fbbfcf78.css",
-    "main.js": "/static/js/main.4276b5a6.js",
-    "static/js/787.634917ec.chunk.js": "/static/js/787.634917ec.chunk.js",
+    "main.css": "/static/css/main.58a3ea9b.css",
+    "main.js": "/static/js/main.5a286f52.js",
+    "static/js/787.34537d63.chunk.js": "/static/js/787.34537d63.chunk.js",
     "static/media/TG Transparent Background.png": "/static/media/TG Transparent Background.8239088f416ee1c3c196.png",
     "static/media/The Woven Thread.png": "/static/media/The Woven Thread.c87f27e0935828b33040.png",
     "static/media/Seann Aite.png": "/static/media/Seann Aite.44722a3ba10fb4d30fc2.png",
@@ -39,6 +39,7 @@
     "static/media/Magician.jpg": "/static/media/Magician.2d54e8b2f27b92cd1cb1.jpg",
     "static/media/Goodreads.png": "/static/media/Goodreads.c4aa0a1ed940e524e0a1.png",
     "static/media/Amazon logo.png": "/static/media/Amazon logo.19e5df3e3e8811e0564a.png",
+    "static/media/mastodon.png": "/static/media/mastodon.8ff09511faaf1cb26df6.png",
     "static/media/Isola.jpg": "/static/media/Isola.daa0714be8e508b60ec6.jpg",
     "static/media/ImperatorSmallCaps.ttf": "/static/media/ImperatorSmallCaps.7bee243584e2c4cf73ec.ttf",
     "static/media/eBooks.png": "/static/media/eBooks.fae38ca7e5735c5173a5.png",
@@ -46,12 +47,12 @@
     "static/media/Kobo-logo.png": "/static/media/Kobo-logo.143740f6c8f9c3cd7a6f.png",
     "static/media/Apple Books Logo.png": "/static/media/Apple Books Logo.672d0ec0f76890762614.png",
     "index.html": "/index.html",
-    "main.fbbfcf78.css.map": "/static/css/main.fbbfcf78.css.map",
-    "main.4276b5a6.js.map": "/static/js/main.4276b5a6.js.map",
-    "787.634917ec.chunk.js.map": "/static/js/787.634917ec.chunk.js.map"
+    "main.58a3ea9b.css.map": "/static/css/main.58a3ea9b.css.map",
+    "main.5a286f52.js.map": "/static/js/main.5a286f52.js.map",
+    "787.34537d63.chunk.js.map": "/static/js/787.34537d63.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbbfcf78.css",
-    "static/js/main.4276b5a6.js"
+    "static/css/main.58a3ea9b.css",
+    "static/js/main.5a286f52.js"
   ]
 }
