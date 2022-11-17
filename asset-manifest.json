@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.58a3ea9b.css",
-    "main.js": "/static/js/main.b4b26dd5.js",
+    "main.js": "/static/js/main.7eac4427.js",
     "static/js/787.34537d63.chunk.js": "/static/js/787.34537d63.chunk.js",
     "static/media/TG Transparent Background.png": "/static/media/TG Transparent Background.8239088f416ee1c3c196.png",
     "static/media/The Woven Thread.png": "/static/media/The Woven Thread.c87f27e0935828b33040.png",
@@ -48,11 +48,11 @@
     "static/media/Apple Books Logo.png": "/static/media/Apple Books Logo.672d0ec0f76890762614.png",
     "index.html": "/index.html",
     "main.58a3ea9b.css.map": "/static/css/main.58a3ea9b.css.map",
-    "main.b4b26dd5.js.map": "/static/js/main.b4b26dd5.js.map",
+    "main.7eac4427.js.map": "/static/js/main.7eac4427.js.map",
     "787.34537d63.chunk.js.map": "/static/js/787.34537d63.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58a3ea9b.css",
-    "static/js/main.b4b26dd5.js"
+    "static/js/main.7eac4427.js"
   ]
 }
