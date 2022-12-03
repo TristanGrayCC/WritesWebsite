@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.58a3ea9b.css",
-    "main.js": "/static/js/main.7eac4427.js",
+    "main.css": "/static/css/main.3d047399.css",
+    "main.js": "/static/js/main.1782f8e8.js",
     "static/js/787.34537d63.chunk.js": "/static/js/787.34537d63.chunk.js",
     "static/media/TG Transparent Background.png": "/static/media/TG Transparent Background.8239088f416ee1c3c196.png",
     "static/media/The Woven Thread.png": "/static/media/The Woven Thread.c87f27e0935828b33040.png",
@@ -20,6 +20,7 @@
     "static/media/Night Watch.jpg": "/static/media/Night Watch.4247aa0bb8f54c6032cc.jpg",
     "static/media/Dragonbone Chair.jpg": "/static/media/Dragonbone Chair.ad6d10ff698060b38f20.jpg",
     "static/media/Rat Queens.jpg": "/static/media/Rat Queens.d73414c6147951575482.jpg",
+    "static/media/UK Flag.png": "/static/media/UK Flag.4f51b44c90fafbd568a2.png",
     "static/media/CODA.jpg": "/static/media/CODA.6a73d59293f06030c0b1.jpg",
     "static/media/Journey.jpg": "/static/media/Journey.252862dc1d7ed0b3ce7d.jpg",
     "static/media/The Last Wish.jpg": "/static/media/The Last Wish.68f5e9631872fbf94104.jpg",
@@ -47,12 +48,12 @@
     "static/media/Kobo-logo.png": "/static/media/Kobo-logo.143740f6c8f9c3cd7a6f.png",
     "static/media/Apple Books Logo.png": "/static/media/Apple Books Logo.672d0ec0f76890762614.png",
     "index.html": "/index.html",
-    "main.58a3ea9b.css.map": "/static/css/main.58a3ea9b.css.map",
-    "main.7eac4427.js.map": "/static/js/main.7eac4427.js.map",
+    "main.3d047399.css.map": "/static/css/main.3d047399.css.map",
+    "main.1782f8e8.js.map": "/static/js/main.1782f8e8.js.map",
     "787.34537d63.chunk.js.map": "/static/js/787.34537d63.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58a3ea9b.css",
-    "static/js/main.7eac4427.js"
+    "static/css/main.3d047399.css",
+    "static/js/main.1782f8e8.js"
   ]
 }
