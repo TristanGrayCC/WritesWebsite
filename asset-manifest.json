@@ -1,10 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.0153dbd7.css",
-    "main.js": "/static/js/main.b8884750.js",
+    "main.css": "/static/css/main.47650df3.css",
+    "main.js": "/static/js/main.fda6f13a.js",
     "static/js/787.34537d63.chunk.js": "/static/js/787.34537d63.chunk.js",
+    "static/media/Anato Finnstark.png": "/static/media/Anato Finnstark.bb6e5e085623b2c2cf63.png",
     "static/media/TG Transparent Background.png": "/static/media/TG Transparent Background.8239088f416ee1c3c196.png",
+    "static/media/Syd Mills.png": "/static/media/Syd Mills.b979440a982bb82e907a.png",
     "static/media/The Woven Thread.png": "/static/media/The Woven Thread.c87f27e0935828b33040.png",
+    "static/media/ALMG.png": "/static/media/ALMG.d6184f219295767bb85b.png",
+    "static/media/Bastien.png": "/static/media/Bastien.3505966a2de4ab7b1d3d.png",
+    "static/media/Alan Lee.png": "/static/media/Alan Lee.a3b5361661cd0a73a9a2.png",
+    "static/media/Celeste.png": "/static/media/Celeste.851f4581fa8a55705a49.png",
     "static/media/Seann Aite.png": "/static/media/Seann Aite.44722a3ba10fb4d30fc2.png",
     "static/media/A Gift of the Sea.png": "/static/media/A Gift of the Sea.039ddffb559f9b187789.png",
     "static/media/Portrait Whispers.png": "/static/media/Portrait Whispers.8e3c7f66386a57dc7d70.png",
@@ -12,6 +18,7 @@
     "static/media/Names of the Dead.png": "/static/media/Names of the Dead.01591590bc8bd5466be4.png",
     "static/media/Hollow Knight.png": "/static/media/Hollow Knight.c444f46682574bbedc85.png",
     "static/media/Question.png": "/static/media/Question.2bf73177204e7994f6b6.png",
+    "static/media/Hades.jpeg": "/static/media/Hades.b4a66eb29a018adf537e.jpeg",
     "static/media/Profile.png": "/static/media/Profile.728dcbf8976ee3e97a1f.png",
     "static/media/Bone Witch.jpg": "/static/media/Bone Witch.de29306353745b575c1d.jpg",
     "static/media/Highest House.jpg": "/static/media/Highest House.f4703b9db32afe17f4de.jpg",
@@ -25,6 +32,7 @@
     "static/media/Journey.jpg": "/static/media/Journey.252862dc1d7ed0b3ce7d.jpg",
     "static/media/The Last Wish.jpg": "/static/media/The Last Wish.68f5e9631872fbf94104.jpg",
     "static/media/Hellblade.jpg": "/static/media/Hellblade.1170c6a19aba5c8aa9ff.jpg",
+    "static/media/Hall of Smoke.jpg": "/static/media/Hall of Smoke.b7fc7c1086a3fee71e71.jpg",
     "static/media/Witcher 3.jpg": "/static/media/Witcher 3.e9114156be126adc0c82.jpg",
     "static/media/Reaver.jpg": "/static/media/Reaver.878cd3c3ea05234c6c32.jpg",
     "static/media/Sandman.jpg": "/static/media/Sandman.ec2ff9b42a4135b67684.jpg",
@@ -50,12 +58,12 @@
     "static/media/Kobo-logo.png": "/static/media/Kobo-logo.143740f6c8f9c3cd7a6f.png",
     "static/media/Apple Books Logo.png": "/static/media/Apple Books Logo.672d0ec0f76890762614.png",
     "index.html": "/index.html",
-    "main.0153dbd7.css.map": "/static/css/main.0153dbd7.css.map",
-    "main.b8884750.js.map": "/static/js/main.b8884750.js.map",
+    "main.47650df3.css.map": "/static/css/main.47650df3.css.map",
+    "main.fda6f13a.js.map": "/static/js/main.fda6f13a.js.map",
     "787.34537d63.chunk.js.map": "/static/js/787.34537d63.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0153dbd7.css",
-    "static/js/main.b8884750.js"
+    "static/css/main.47650df3.css",
+    "static/js/main.fda6f13a.js"
   ]
 }
