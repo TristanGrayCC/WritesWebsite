@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.47650df3.css",
-    "main.js": "/static/js/main.fda6f13a.js",
+    "main.js": "/static/js/main.6fe5188f.js",
     "static/js/787.34537d63.chunk.js": "/static/js/787.34537d63.chunk.js",
     "static/media/Anato Finnstark.png": "/static/media/Anato Finnstark.bb6e5e085623b2c2cf63.png",
     "static/media/TG Transparent Background.png": "/static/media/TG Transparent Background.8239088f416ee1c3c196.png",
@@ -50,6 +50,7 @@
     "static/media/Amazon logo.png": "/static/media/Amazon logo.19e5df3e3e8811e0564a.png",
     "static/media/Priory.jpg": "/static/media/Priory.3a9605ee9c29bcdded0b.jpg",
     "static/media/mastodon.png": "/static/media/mastodon.8ff09511faaf1cb26df6.png",
+    "static/media/Bluesky.png": "/static/media/Bluesky.f57da3a8964b6e13d8cb.png",
     "static/media/Isola.jpg": "/static/media/Isola.daa0714be8e508b60ec6.jpg",
     "static/media/ImperatorSmallCaps.ttf": "/static/media/ImperatorSmallCaps.7bee243584e2c4cf73ec.ttf",
     "static/media/eBooks.png": "/static/media/eBooks.fae38ca7e5735c5173a5.png",
@@ -59,11 +60,11 @@
     "static/media/Apple Books Logo.png": "/static/media/Apple Books Logo.672d0ec0f76890762614.png",
     "index.html": "/index.html",
     "main.47650df3.css.map": "/static/css/main.47650df3.css.map",
-    "main.fda6f13a.js.map": "/static/js/main.fda6f13a.js.map",
+    "main.6fe5188f.js.map": "/static/js/main.6fe5188f.js.map",
     "787.34537d63.chunk.js.map": "/static/js/787.34537d63.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47650df3.css",
-    "static/js/main.fda6f13a.js"
+    "static/js/main.6fe5188f.js"
   ]
 }
