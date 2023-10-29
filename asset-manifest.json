@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c9a1d02f.css",
-    "main.js": "/static/js/main.8824488b.js",
+    "main.css": "/static/css/main.edecb00d.css",
+    "main.js": "/static/js/main.d27b6941.js",
     "static/js/787.34537d63.chunk.js": "/static/js/787.34537d63.chunk.js",
     "static/media/Anato Finnstark.png": "/static/media/Anato Finnstark.bb6e5e085623b2c2cf63.png",
     "static/media/Syd Mills.png": "/static/media/Syd Mills.b979440a982bb82e907a.png",
@@ -35,6 +35,7 @@
     "static/media/Witcher 3.jpg": "/static/media/Witcher 3.e9114156be126adc0c82.jpg",
     "static/media/Trees.png": "/static/media/Trees.903614b63b38f833ac2f.png",
     "static/media/Reaver.jpg": "/static/media/Reaver.878cd3c3ea05234c6c32.jpg",
+    "static/media/Arrow.png": "/static/media/Arrow.08a4914444a90b1fb808.png",
     "static/media/Sandman.jpg": "/static/media/Sandman.ec2ff9b42a4135b67684.jpg",
     "static/media/Horizon.jpg": "/static/media/Horizon.bdf0cbf3768ae6af20e8.jpg",
     "static/media/Ori.jpg": "/static/media/Ori.03bf1ee8a2fe8dd7db7e.jpg",
@@ -61,12 +62,12 @@
     "static/media/Apple Books Logo.png": "/static/media/Apple Books Logo.672d0ec0f76890762614.png",
     "static/media/Menu.webp": "/static/media/Menu.ff03fc4a48c5b5810797.webp",
     "index.html": "/index.html",
-    "main.c9a1d02f.css.map": "/static/css/main.c9a1d02f.css.map",
-    "main.8824488b.js.map": "/static/js/main.8824488b.js.map",
+    "main.edecb00d.css.map": "/static/css/main.edecb00d.css.map",
+    "main.d27b6941.js.map": "/static/js/main.d27b6941.js.map",
     "787.34537d63.chunk.js.map": "/static/js/787.34537d63.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9a1d02f.css",
-    "static/js/main.8824488b.js"
+    "static/css/main.edecb00d.css",
+    "static/js/main.d27b6941.js"
   ]
 }
