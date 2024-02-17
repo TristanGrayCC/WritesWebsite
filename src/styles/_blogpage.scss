@@ -1,0 +1,29 @@
+.blog-page {
+    h1 {
+        display: inline-block;
+    }
+    a {
+        color: lightblue;
+        font-size: 40px;
+        text-decoration: none;
+    }
+
+    .arrow {
+        padding-bottom: 0px;
+    }
+
+    .arrow {
+        height: 30px;
+        filter: invert(100%)
+    }
+
+    .arrow-one {
+        margin-right: 15px;
+        transform: rotate(90deg);
+    }
+
+    .arrow-two {
+        margin-left: 15px;
+        transform: rotate(-90deg);
+    }
+}

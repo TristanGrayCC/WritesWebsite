@@ -8,12 +8,14 @@ import AboutPage from './Pages/About/AboutPage';
 import LanguagePage from './Pages/Language/LanguagePage';
 import RecommendationsPage from './Pages/Recommendations/RecommendationsPage';
 import OtherWritingPage from './Pages/OtherWriting/OtherWritingPage';
+import BlogPage from './Pages/Blog/BlogPage';
 
 const routing = (
     <HashRouter>
       <Routes>
         <Route path="/" element={<MainPage/>} />
         <Route path="/About" element={<AboutPage/>} />
+        <Route path="/Blog" element={<BlogPage/>} />
         <Route path="/Languages" element={<LanguagePage/>} />
         <Route path="/Recommendations" element={<RecommendationsPage/>} />
         <Route path="/Writing" element={<OtherWritingPage/>} />

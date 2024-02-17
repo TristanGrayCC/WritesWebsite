@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e23c379.css",
-    "main.js": "/static/js/main.b79ef9f7.js",
+    "main.css": "/static/css/main.b3148849.css",
+    "main.js": "/static/js/main.af3f28a3.js",
     "static/js/787.34537d63.chunk.js": "/static/js/787.34537d63.chunk.js",
     "static/media/Anato Finnstark.png": "/static/media/Anato Finnstark.bb6e5e085623b2c2cf63.png",
     "static/media/Syd Mills.png": "/static/media/Syd Mills.b979440a982bb82e907a.png",
@@ -28,6 +28,7 @@
     "static/media/UK Flag.png": "/static/media/UK Flag.4f51b44c90fafbd568a2.png",
     "static/media/CODA.jpg": "/static/media/CODA.6a73d59293f06030c0b1.jpg",
     "static/media/Journey.jpg": "/static/media/Journey.252862dc1d7ed0b3ce7d.jpg",
+    "static/media/Instagram.png": "/static/media/Instagram.92fa8e0eb876072e9366.png",
     "static/media/The Last Wish.jpg": "/static/media/The Last Wish.68f5e9631872fbf94104.jpg",
     "static/media/Hellblade.jpg": "/static/media/Hellblade.1170c6a19aba5c8aa9ff.jpg",
     "static/media/Hall of Smoke.jpg": "/static/media/Hall of Smoke.b7fc7c1086a3fee71e71.jpg",
@@ -47,12 +48,12 @@
     "static/media/BandN.png": "/static/media/BandN.1e809797fc1e700cdf62.png",
     "static/media/Daughter of the Empire.jpg": "/static/media/Daughter of the Empire.9b20dfb0a903ee9579ab.jpg",
     "static/media/DIE.jpg": "/static/media/DIE.5c56c1223f3cfedbc5cd.jpg",
+    "static/media/Bluesky.png": "/static/media/Bluesky.3cf35903ba67fb8fd095.png",
     "static/media/Magician.jpg": "/static/media/Magician.2d54e8b2f27b92cd1cb1.jpg",
     "static/media/Goodreads.png": "/static/media/Goodreads.c4aa0a1ed940e524e0a1.png",
     "static/media/Amazon logo.png": "/static/media/Amazon logo.19e5df3e3e8811e0564a.png",
     "static/media/Priory.jpg": "/static/media/Priory.3a9605ee9c29bcdded0b.jpg",
     "static/media/mastodon.png": "/static/media/mastodon.8ff09511faaf1cb26df6.png",
-    "static/media/Bluesky.png": "/static/media/Bluesky.f57da3a8964b6e13d8cb.png",
     "static/media/Isola.jpg": "/static/media/Isola.daa0714be8e508b60ec6.jpg",
     "static/media/ImperatorSmallCaps.ttf": "/static/media/ImperatorSmallCaps.7bee243584e2c4cf73ec.ttf",
     "static/media/eBooks.png": "/static/media/eBooks.fae38ca7e5735c5173a5.png",
@@ -62,12 +63,12 @@
     "static/media/Apple Books Logo.png": "/static/media/Apple Books Logo.672d0ec0f76890762614.png",
     "static/media/Menu.webp": "/static/media/Menu.ff03fc4a48c5b5810797.webp",
     "index.html": "/index.html",
-    "main.8e23c379.css.map": "/static/css/main.8e23c379.css.map",
-    "main.b79ef9f7.js.map": "/static/js/main.b79ef9f7.js.map",
+    "main.b3148849.css.map": "/static/css/main.b3148849.css.map",
+    "main.af3f28a3.js.map": "/static/js/main.af3f28a3.js.map",
     "787.34537d63.chunk.js.map": "/static/js/787.34537d63.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e23c379.css",
-    "static/js/main.b79ef9f7.js"
+    "static/css/main.b3148849.css",
+    "static/js/main.af3f28a3.js"
   ]
 }

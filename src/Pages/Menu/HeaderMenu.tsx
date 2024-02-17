@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from 'react-router-dom'
 const Facebook = require("../../images/logos/Facebook.png")
-const Instagram = require("../../images/logos/Bluesky.png")
+const Instagram = require("../../images/logos/Instagram.png")
 const Twitter = require("../../images/logos/Twitter.png")
 const Goodreads = require("../../images/logos/Goodreads.png")
 const Tiktok = require("../../images/logos/Tiktok.png")
@@ -38,6 +38,7 @@ class HeaderMenu extends React.Component<{}, MenuState> {
             <div className={this.state.menuShown ? "menu-items show-menu" : "menu-items"}>
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/About">About</NavLink>
+                <NavLink to="/Blog">Blog</NavLink>
                 <NavLink to="/Writing">Other Writing</NavLink>
                 <NavLink to="/Languages">Language</NavLink>
                 <NavLink to="/Recommendations">Recommendations</NavLink>
@@ -46,7 +47,7 @@ class HeaderMenu extends React.Component<{}, MenuState> {
                 <a target="_blank" rel="noreferrer" href="https://www.facebook.com/tgraywrites">
                     <img src={Facebook} alt="Facebook" />
                 </a>
-                <a target="_blank" rel="noreferrer" href="https://www.instagram.com/tristangraywrites">
+                <a className="instagram" target="_blank" rel="noreferrer" href="https://www.instagram.com/tristangraywrites">
                     <img src={Instagram} alt="Instagram" />
                 </a>
                 <a target="_blank" rel="noreferrer" href="https://twitter.com/TGrayWrites">
