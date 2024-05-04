@@ -12,7 +12,7 @@ const names = require("../../images/book-covers/small/Names.png")
 const gift = require("../../images/book-covers/small/Gift.png")
 const thread = require("../../images/book-covers/small/Thread.png")
 const eyes = require("../../images/book-covers/small/Eyes.png")
-const question = require("../../images/book-covers/small/Question.png")
+const raven = require("../../images/book-covers/small/Raven.jpg")
 const trees = require("../../images/Trees.png")
 const map = require("../../images/Seann Aite.png")
 const arrow = require("../../images/Arrow.png")
@@ -27,7 +27,7 @@ const four = <p>A butcher haunts the crags over Kempe Fell. A being from another
 
 const five = <p>Long ago the gods of Seann Àite departed the world in the midst of a great battle fought high in the mountains above the Giants' Stair. Now that tale will be told by a diminutive storyteller, as Fiadh and Annis seek the only way to find the Red Raven - a wish.<br /><br /> Accompanied by companions from the crew of her host Fiadh will climb in search of one of the few beings capable of granting her what she needs. All the while, the cracks of her long and gruelling journey begin to show. </p>
 
-const six = <p>COMING 2024<br /><br />The Sixth and final tale. Fiadh finally travels to confront the one who burned her home long ago. Here, at last, she and Caerdrich will have their vengeance.</p>
+const six = <p>For years Fiadh has been waiting for this moment, the chance to finally confront the Red Raven and grasp revenge for the destruction she inflicted on Tur Eumor.<br /><br />Now, finally, she will meet her in person, with Annis at her side.<br /><br />But the hidden isle is filled with danger and the blade at her back hungers for more than her vengeance.</p>
 
 function MainPage() {
     const [selected, setSelected] = useState(false);
@@ -71,8 +71,8 @@ function MainPage() {
                 <BookItem bookItemContent={namesDesc} bookItemTitle="Names of the Dead" bookItemImage={names} book={Book.Names} bookItemLinksUK={BuyLinksUK["Names"]} bookItemLinksUS={BuyLinksUS["Names"]} />
                 <BookItem bookItemContent={giftDesc} bookItemTitle="A Gift of the Sea" bookItemImage={gift} book={Book.Gift} bookItemLinksUK={BuyLinksUK["Gift"]} bookItemLinksUS={BuyLinksUS["Gift"]} />
                 <BookItem bookItemContent={four} bookItemTitle="The Woven Thread" bookItemImage={thread} book={Book.Thread}  bookItemLinksUK={BuyLinksUK["Thread"]} bookItemLinksUS={BuyLinksUS["Thread"]}/>
-                <BookItem bookItemContent={five} bookItemTitle="Eyes of Gold" bookItemImage={eyes} book={Book.None}  bookItemLinksUK={BuyLinksUK["Eyes"]} bookItemLinksUS={BuyLinksUS["Eyes"]}/>
-                <BookItem bookItemContent={six} bookItemTitle="Tale No. 6" bookItemImage={question} book={Book.None} bookItemLinksUK={[{"title": "", "link": ""}]} bookItemLinksUS={[{"title": "", "link": ""}]}/>
+                <BookItem bookItemContent={five} bookItemTitle="Eyes of Gold" bookItemImage={eyes} book={Book.Eyes}  bookItemLinksUK={BuyLinksUK["Eyes"]} bookItemLinksUS={BuyLinksUS["Eyes"]}/>
+                <BookItem bookItemContent={six} bookItemTitle="The Red Raven" bookItemImage={raven} book={Book.Raven} bookItemLinksUK={BuyLinksUK["Raven"]} bookItemLinksUS={BuyLinksUS["Raven"]}/>
             </div>
             <GoodreadsWidget/>
             

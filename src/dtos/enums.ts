@@ -4,5 +4,6 @@ export enum Book {
     Names,
     Gift,
     Thread,
-    Eyes
+    Eyes,
+    Raven
 }

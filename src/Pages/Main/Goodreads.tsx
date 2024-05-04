@@ -19,7 +19,7 @@ function GoodreadsWidget() {
                         <div className="gr_review_stats">
                             reviews: 79
                             <br />
-                            ratings: 118 <br />
+                            ratings: 124 <br />
                             (avg rating 3.93)
                         </div>
                     </div>
@@ -35,7 +35,7 @@ function GoodreadsWidget() {
                         <div className="gr_review_stats">
                         reviews: 26
                         <br />
-                        ratings: 41 <br />(avg rating 4.49)
+                        ratings: 43 <br />(avg rating 4.49)
                         </div>
                     </div>
 
@@ -50,12 +50,12 @@ function GoodreadsWidget() {
                         <div className="gr_review_stats">
                             reviews: 18
                             <br />
-                            ratings: 22 <br />(avg rating 4.68)
+                            ratings: 23 <br />(avg rating 4.65)
                         </div>
                     </div>
 
                     <div className="gr_book_container">
-                        <a title="The Woven Thread (Tales of Seann Àite #4)" className="gr_book_image" rel="nofollow" href="https://www.goodreads.com/book/show/60679169-the-woven-thread?  utm_medium=api&utm_source=author_widget"><img alt="The Woven Thread" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1648828392l/60679169. _SX50_.jpg" /></a>
+                        <a title="The Woven Thread (Tales of Seann Àite #4)" className="gr_book_image" rel="nofollow" href="https://www.goodreads.com/book/show/60679169-the-woven-thread?  utm_medium=api&utm_source=author_widget"><img alt="The Woven Thread" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1648828392i/60679169._SX50_.jpg" /></a>
                         <a className="gr_book_title" rel="nofollow" href="https://www.goodreads.com/book/show/60679169-the-woven-thread?utm_medium=api&utm_source=author_widget">The Woven  Thread (#4)</a>
                         <br />
                         <div className="gr_review_stats">
@@ -72,9 +72,18 @@ function GoodreadsWidget() {
                         <a className="gr_book_title" rel="nofollow" href="https://www.goodreads.com/book/show/195855750-eyes-of-gold?utm_medium=api&utm_source=author_widget">Eyes of Gold (#5)</a>
                         <br />
                         <div className="gr_review_stats">
-                            reviews: 2
+                            reviews: 7
                             <br />
-                            ratings: 4 <br />(avg rating 4.75)
+                            ratings: 10 <br />(avg rating 4.6)
+                        </div>
+                    </div>
+                    <div className="gr_book_container">
+                        <a title="The Red Raven (Tales of Seann Àite #6)" className="gr_book_image" rel="nofollow" href="https://www.goodreads.com/book/show/212762574-the-red-raven? utm_medium=api&utm_source=author_widget">
+                            <img alt="The Red Raven" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1714831037i/212762574._SY75_.jpg" />
+                        </a>
+                        <a className="gr_book_title" rel="nofollow" href="https://www.goodreads.com/book/show/212762574-the-red-raven?utm_medium=api&utm_source=author_widget">The Red Raven (#6)</a>
+                        <br />
+                        <div className="gr_review_stats">
                         </div>
                     </div>
                 </div>

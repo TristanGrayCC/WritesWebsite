@@ -37,6 +37,9 @@ const BuyLinksUS: LinkDictionary = {
         {"title": "Apple Books US", "link": "https://books.apple.com/us/book/id6461120780"},
         {"title": "Thalia", "link": "https://www.thalia.de/shop/home/artikeldetails/A1069357979"},
         {"title": "Vivlio", "link": "https://shop.vivlio.com/product/9798223524649_9798223524649_10020/eyes-of-gold"},
+    ],
+    "Raven": [
+        {"title": "Amazon US", "link": "https://www.amazon.com/dp/B0D3B8KBHQ"},
     ]
 }
 

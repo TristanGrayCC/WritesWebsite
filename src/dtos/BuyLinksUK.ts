@@ -33,6 +33,9 @@ const BuyLinksUK: LinkDictionary = {
         {"title": "Amazon UK", "link": "https://www.amazon.co.uk/gp/product/B0CFHW6RWG"},
         {"title": "Kobo UK", "link": "https://www.kobo.com/gb/en/ebook/eyes-of-gold"},
         {"title": "Apple Books UK", "link": "https://books.apple.com/gb/book/id6461120780"},
+    ],
+    "Raven": [
+        {"title": "Amazon UK", "link": "https://www.amazon.co.uk/dp/B0D3B8KBHQ"},
     ]
 }
 
