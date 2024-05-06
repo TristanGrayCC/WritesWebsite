@@ -47,7 +47,7 @@ class HeaderMenu extends React.Component<{}, MenuState> {
                 <a target="_blank" rel="noreferrer" href="https://www.facebook.com/tgraywrites">
                     <img src={Facebook} alt="Facebook" />
                 </a>
-                <a className="instagram" target="_blank" rel="noreferrer" href="https://www.instagram.com/tristangraywrites">
+                <a className="instagram" target="_blank" rel="noreferrer" href="https://www.instagram.com/tgraywrites">
                     <img src={Instagram} alt="Instagram" />
                 </a>
                 <a target="_blank" rel="noreferrer" href="https://twitter.com/TGrayWrites">
