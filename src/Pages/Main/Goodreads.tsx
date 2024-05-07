@@ -11,7 +11,7 @@ function GoodreadsWidget() {
                 <div className="gr_container">
 
                     <div className="gr_book_container">
-                        <a title="Whispers to a Crow (Tales of Seann Àite #1)" className="gr_book_image" rel="nofollow" href="https://www.goodreads.com/book/show/55061225-whispers-to-a-crow?utm_medium=api&utm_source=author_widget">
+                        <a title="Whispers to a Crow (Tales of the Seann Àite #1)" className="gr_book_image" rel="nofollow" href="https://www.goodreads.com/book/show/55061225-whispers-to-a-crow?utm_medium=api&utm_source=author_widget">
                             <img alt="Whispers to a Crow" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1598076066l/55061225._SY75_.jpg" />
                         </a>
                         <a className="gr_book_title" rel="nofollow" href="https://www.goodreads.com/book/show/55061225-whispers-to-a-crow?utm_medium=api&utm_source=author_widget">Whispers to a Crow (#1)</a>
@@ -25,7 +25,7 @@ function GoodreadsWidget() {
                     </div>
 
                     <div className="gr_book_container">
-                        <a title="Names of the Dead (Tales of Seann Àite #2)" className="gr_book_image" rel="nofollow" href="https://www.goodreads.com/book/show/55814378-names-of-the-dead?utm_medium=api&utm_source=author_widget">
+                        <a title="Names of the Dead (Tales of the Seann Àite #2)" className="gr_book_image" rel="nofollow" href="https://www.goodreads.com/book/show/55814378-names-of-the-dead?utm_medium=api&utm_source=author_widget">
                             <img alt="Names of the Dead" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603917366l/55814378._SY75_.jpg" />
                         </a>
                         <a className="gr_book_title" rel="nofollow" href="https://www.goodreads.com/book/show/55814378-names-of-the-dead?utm_medium=api&utm_source=author_widget">
@@ -40,7 +40,7 @@ function GoodreadsWidget() {
                     </div>
 
                     <div className="gr_book_container">
-                        <a title="A Gift of the Sea (Tales of Seann Àite #3)" className="gr_book_image" rel="nofollow" href="https://www.goodreads.com/book/show/58399751-a-gift-of-the-sea?    utm_medium=api&utm_source=author_widget">
+                        <a title="A Gift of the Sea (Tales of the Seann Àite #3)" className="gr_book_image" rel="nofollow" href="https://www.goodreads.com/book/show/58399751-a-gift-of-the-sea?    utm_medium=api&utm_source=author_widget">
                             <img alt="A Gift of the Sea" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624380459l/58399751._SX50_.jpg" />
                         </a>
                         <a className="gr_book_title" rel="nofollow" href="https://www.goodreads.com/book/show/58399751-a-gift-of-the-sea?utm_medium=api&utm_source=author_widget">
@@ -55,7 +55,7 @@ function GoodreadsWidget() {
                     </div>
 
                     <div className="gr_book_container">
-                        <a title="The Woven Thread (Tales of Seann Àite #4)" className="gr_book_image" rel="nofollow" href="https://www.goodreads.com/book/show/60679169-the-woven-thread?  utm_medium=api&utm_source=author_widget"><img alt="The Woven Thread" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1648828392i/60679169._SX50_.jpg" /></a>
+                        <a title="The Woven Thread (Tales of the Seann Àite #4)" className="gr_book_image" rel="nofollow" href="https://www.goodreads.com/book/show/60679169-the-woven-thread?  utm_medium=api&utm_source=author_widget"><img alt="The Woven Thread" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1648828392i/60679169._SX50_.jpg" /></a>
                         <a className="gr_book_title" rel="nofollow" href="https://www.goodreads.com/book/show/60679169-the-woven-thread?utm_medium=api&utm_source=author_widget">The Woven  Thread (#4)</a>
                         <br />
                         <div className="gr_review_stats">
@@ -66,7 +66,7 @@ function GoodreadsWidget() {
                     </div>
 
                     <div className="gr_book_container">
-                        <a title="Eyes of Gold (Tales of Seann Àite #5)" className="gr_book_image" rel="nofollow" href="https://www.goodreads.com/book/show/195855750-eyes-of-gold? utm_medium=api&utm_source=author_widget">
+                        <a title="Eyes of Gold (Tales of the Seann Àite #5)" className="gr_book_image" rel="nofollow" href="https://www.goodreads.com/book/show/195855750-eyes-of-gold? utm_medium=api&utm_source=author_widget">
                             <img alt="Eyes of Gold" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1695614990l/195855750._SX50_.jpg" />
                         </a>
                         <a className="gr_book_title" rel="nofollow" href="https://www.goodreads.com/book/show/195855750-eyes-of-gold?utm_medium=api&utm_source=author_widget">Eyes of Gold (#5)</a>
@@ -78,7 +78,7 @@ function GoodreadsWidget() {
                         </div>
                     </div>
                     <div className="gr_book_container">
-                        <a title="The Red Raven (Tales of Seann Àite #6)" className="gr_book_image" rel="nofollow" href="https://www.goodreads.com/book/show/212762574-the-red-raven? utm_medium=api&utm_source=author_widget">
+                        <a title="The Red Raven (Tales of the Seann Àite #6)" className="gr_book_image" rel="nofollow" href="https://www.goodreads.com/book/show/212762574-the-red-raven? utm_medium=api&utm_source=author_widget">
                             <img alt="The Red Raven" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1714831037i/212762574._SY75_.jpg" />
                         </a>
                         <a className="gr_book_title" rel="nofollow" href="https://www.goodreads.com/book/show/212762574-the-red-raven?utm_medium=api&utm_source=author_widget">The Red Raven (#6)</a>

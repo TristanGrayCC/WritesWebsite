@@ -58,8 +58,8 @@ function MainPage() {
             <HeaderMenu />
             <BuyModal onClick={openBuy}/>
             <div className="series-title">
-                <img src={ trees } alt="Tales of Seann Àite"/>
-                <h2>- Tales of Seann Àite -</h2>
+                <img src={ trees } alt="Tales of the Seann Àite"/>
+                <h2>- Tales of the Seann Àite -</h2>
             </div>
             <div className="buy-direct">
                 <img className="arrow arrow-one" src={ arrow } alt="Arrow"/>
