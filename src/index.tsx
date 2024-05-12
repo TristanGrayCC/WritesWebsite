@@ -9,6 +9,7 @@ import LanguagePage from './Pages/Language/LanguagePage';
 import RecommendationsPage from './Pages/Recommendations/RecommendationsPage';
 import OtherWritingPage from './Pages/OtherWriting/OtherWritingPage';
 import BlogPage from './Pages/Blog/BlogPage';
+import PaymentCompletePage from './Pages/Payment Complete/PaymentComplete';
 
 const routing = (
     <HashRouter>
@@ -19,6 +20,7 @@ const routing = (
         <Route path="/Languages" element={<LanguagePage/>} />
         <Route path="/Recommendations" element={<RecommendationsPage/>} />
         <Route path="/Writing" element={<OtherWritingPage/>} />
+        <Route path="/Payment" element={<PaymentCompletePage/>} />
         </Routes>
     </HashRouter>
 )
