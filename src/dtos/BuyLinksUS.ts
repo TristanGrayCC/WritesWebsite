@@ -40,6 +40,12 @@ const BuyLinksUS: LinkDictionary = {
     ],
     "Raven": [
         {"title": "Amazon US", "link": "https://www.amazon.com/dp/B0D3B8KBHQ"},
+        {"title": "Barnes and Noble", "link": "https://www.barnesandnoble.com/w/the-red-raven-tristan-gray/1145561790;jsessionid=7C1F799BD70A34FF0F572A24ABFFD8C5.prodny_store01-atgap06?ean=2940179608370"},
+        {"title": "Apple Books", "link": "https://books.apple.com/us/book/the-red-raven/id6502348718"},
+        {"title": "Everand", "link": "https://www.everand.com/book/731860260"},
+        {"title": "Smashwords", "link": "https://www.smashwords.com/books/view/1561153"},
+        {"title": "Thalia", "link": "https://www.thalia.de/shop/home/artikeldetails/A1071842710"},
+        {"title": "Vivlio", "link": "https://shop.vivlio.com/product/9798224063291_9798224063291_10020/the-red-raven0"},
     ]
 }
 
