@@ -1,5 +1,4 @@
 import React from "react";
-import { Book } from "../../dtos/enums";
 import LinkItem from "./LinkItem";
 
 interface BookItemProps {
@@ -8,7 +7,6 @@ interface BookItemProps {
     bookItemImage: string;
     bookItemLinksUK: LinkItem[];
     bookItemLinksUS: LinkItem[];
-    book: Book;
 }
 
 class BookItem extends React.Component<BookItemProps> {

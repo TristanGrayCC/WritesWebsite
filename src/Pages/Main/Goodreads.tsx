@@ -17,10 +17,10 @@ function GoodreadsWidget() {
                         <a className="gr_book_title" rel="nofollow" href="https://www.goodreads.com/book/show/55061225-whispers-to-a-crow?utm_medium=api&utm_source=author_widget">Whispers to a Crow (#1)</a>
                         <br />
                         <div className="gr_review_stats">
-                            reviews: 79
+                            reviews: 81
                             <br />
-                            ratings: 124 <br />
-                            (avg rating 3.93)
+                            ratings: 126 <br />
+                            (avg rating 3.94)
                         </div>
                     </div>
 
@@ -33,7 +33,7 @@ function GoodreadsWidget() {
                         </a>
                         <br />
                         <div className="gr_review_stats">
-                        reviews: 26
+                        reviews: 27
                         <br />
                         ratings: 43 <br />(avg rating 4.49)
                         </div>
@@ -48,7 +48,7 @@ function GoodreadsWidget() {
                         </a>
                         <br />
                         <div className="gr_review_stats">
-                            reviews: 18
+                            reviews: 19
                             <br />
                             ratings: 23 <br />(avg rating 4.65)
                         </div>
@@ -84,6 +84,9 @@ function GoodreadsWidget() {
                         <a className="gr_book_title" rel="nofollow" href="https://www.goodreads.com/book/show/212762574-the-red-raven?utm_medium=api&utm_source=author_widget">The Red Raven (#6)</a>
                         <br />
                         <div className="gr_review_stats">
+                            reviews: 1
+                            <br />
+                            ratings: 1 <br />(avg rating 4)
                         </div>
                     </div>
                 </div>
