@@ -39,6 +39,11 @@ const BuyLinksUK: LinkDictionary = {
         {"title": "Amazon UK", "link": "https://www.amazon.co.uk/dp/B0D3B8KBHQ"},
         {"title": "Kobo UK", "link": "https://www.kobo.com/gb/en/ebook/the-red-raven-1"},
         {"title": "Apple Books UK", "link": "https://books.apple.com/gb/book/the-red-raven/id6502348718"},
+    ],
+    "Call": [
+        {"title": "Amazon UK", "link": "https://www.amazon.co.uk/dp/B0D3B8KBHQ"},
+        {"title": "Kobo UK", "link": "https://www.kobo.com/gb/en/ebook/the-red-raven-1"},
+        {"title": "Apple Books UK", "link": "https://books.apple.com/gb/book/the-red-raven/id6502348718"},
     ]
 }
 
