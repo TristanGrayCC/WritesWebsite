@@ -30,77 +30,6 @@ const whispersDesc = (
   </p>
 );
 
-const namesDesc = (
-  <p>
-    Years after her discoveries at the village of Three Willows Fiadh returns to
-    the island of Ghav Rhien.
-    <br />
-    <br /> An old friend calls for her aid as the last chance to save the
-    haunted lord of the isle from the shadows that torment him in the night.
-    <br />
-    <br /> A spirit from across the sea has come to Seann Àite, and Fiadh must
-    revisit her own past to solve the mystery behind the names of the dead.
-  </p>
-);
-
-const giftDesc = (
-  <p>
-    Continuing her travels along the coast of Seann Àite, Fiadh continues to ply
-    her trade facing dangers of magical and monstrous origin for those who can
-    pay.
-    <br />
-    <br /> Now pursued by a shadowy order and with a new companion at her side,
-    Fiadh has a chance to unveil some of the secrets of her past.
-    <br />
-    <br /> But to leave Fiadh must make a deal with the sea itself to survive
-    and return to land bearing a relic of another age.
-  </p>
-);
-
-const four = (
-  <p>
-    A butcher haunts the crags over Kempe Fell. A being from another time and
-    another place, hunting for a spirit that is no longer here.
-    <br />
-    <br />
-    Fiadh and Annis must brave the dealings and secrets of a house long lost to
-    time, and somehow find a way to placate the monster that awaits their
-    return. All the while Fiadh continues to search for those who cast her from
-    the cliffs of Tur Eumor.
-    <br />
-    <br />
-    Both lie deep within the halls of Kempe Fell.
-  </p>
-);
-
-const five = (
-  <p>
-    Long ago the gods of Seann Àite departed the world in the midst of a great
-    battle fought high in the mountains above the Giants' Stair. Now that tale
-    will be told by a diminutive storyteller, as Fiadh and Annis seek the only
-    way to find the Red Raven - a wish.
-    <br />
-    <br /> Accompanied by companions from the crew of her host Fiadh will climb
-    in search of one of the few beings capable of granting her what she needs.
-    All the while, the cracks of her long and gruelling journey begin to show.{" "}
-  </p>
-);
-
-const six = (
-  <p>
-    For years Fiadh has been waiting for this moment, the chance to finally
-    confront the Red Raven and grasp revenge for the destruction she inflicted
-    on Tur Eumor.
-    <br />
-    <br />
-    Now, finally, she will meet her in person, with Annis at her side.
-    <br />
-    <br />
-    But the hidden isle is filled with danger and the blade at her back hungers
-    for more than her vengeance.
-  </p>
-);
-
 const fullDesc = (
   <p>
     In a treacherous world filled with deception and distrust, Fiadh the Crow
@@ -179,25 +108,28 @@ function MainPage() {
             bookItemContent={fullDesc}
             bookItemTitle="Call of the Black Wing"
             bookItemImage={blackwing}
-            bookItemLinksUK={[]}
-            bookItemLinksUS={[]}
+            bookItemLinksUK={BuyLinksUK["Call"]}
+            bookItemLinksUS={BuyLinksUS["Call"]}
           />
+          <div className="map-container">
+            <h2>Map of Seann Àite</h2>
+            <p>Click to see more</p>
+            <button
+              className={
+                mapClicked ? "map-selected map-section" : "map-section"
+              }
+            >
+              <img
+                alt="map of Seann Àite"
+                src={map}
+                onClick={() => {
+                  setMapClicked(!mapClicked);
+                }}
+              />
+            </button>
+          </div>
         </div>
         <GoodreadsWidget />
-
-        <h2>Map of Seann Àite</h2>
-        <p>Click to see more</p>
-        <button
-          className={mapClicked ? "map-selected map-section" : "map-section"}
-        >
-          <img
-            alt="map of Seann Àite"
-            src={map}
-            onClick={() => {
-              setMapClicked(!mapClicked);
-            }}
-          />
-        </button>
         {selected ? <BuyPopup onClose={onClose} ref={buyElement} /> : null}
       </div>
     </div>
