@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e51d57d7.css",
-    "main.js": "/static/js/main.1bc1aa9e.js",
+    "main.js": "/static/js/main.8f8a584a.js",
     "static/js/787.34537d63.chunk.js": "/static/js/787.34537d63.chunk.js",
     "static/media/Anato Finnstark.png": "/static/media/Anato Finnstark.bb6e5e085623b2c2cf63.png",
     "static/media/Syd Mills.png": "/static/media/Syd Mills.b979440a982bb82e907a.png",
@@ -9,7 +9,6 @@
     "static/media/Bastien.png": "/static/media/Bastien.3505966a2de4ab7b1d3d.png",
     "static/media/Alan Lee.png": "/static/media/Alan Lee.a3b5361661cd0a73a9a2.png",
     "static/media/Celeste.png": "/static/media/Celeste.851f4581fa8a55705a49.png",
-    "static/media/Seann Aite.png": "/static/media/Seann Aite.44722a3ba10fb4d30fc2.png",
     "static/media/Hollow Knight.png": "/static/media/Hollow Knight.c444f46682574bbedc85.png",
     "static/media/Hades.jpeg": "/static/media/Hades.b4a66eb29a018adf537e.jpeg",
     "static/media/Profile.png": "/static/media/Profile.728dcbf8976ee3e97a1f.png",
@@ -25,6 +24,7 @@
     "static/media/UK Flag.png": "/static/media/UK Flag.4f51b44c90fafbd568a2.png",
     "static/media/CODA.jpg": "/static/media/CODA.6a73d59293f06030c0b1.jpg",
     "static/media/Journey.jpg": "/static/media/Journey.252862dc1d7ed0b3ce7d.jpg",
+    "static/media/Seann Aite.png": "/static/media/Seann Aite.3adafa8f8f3daf3c06a8.png",
     "static/media/Instagram.png": "/static/media/Instagram.92fa8e0eb876072e9366.png",
     "static/media/The Last Wish.jpg": "/static/media/The Last Wish.68f5e9631872fbf94104.jpg",
     "static/media/Hellblade.jpg": "/static/media/Hellblade.1170c6a19aba5c8aa9ff.jpg",
@@ -60,11 +60,11 @@
     "static/media/Menu.webp": "/static/media/Menu.ff03fc4a48c5b5810797.webp",
     "index.html": "/index.html",
     "main.e51d57d7.css.map": "/static/css/main.e51d57d7.css.map",
-    "main.1bc1aa9e.js.map": "/static/js/main.1bc1aa9e.js.map",
+    "main.8f8a584a.js.map": "/static/js/main.8f8a584a.js.map",
     "787.34537d63.chunk.js.map": "/static/js/787.34537d63.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e51d57d7.css",
-    "static/js/main.1bc1aa9e.js"
+    "static/js/main.8f8a584a.js"
   ]
 }
