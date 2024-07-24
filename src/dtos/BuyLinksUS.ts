@@ -48,7 +48,7 @@ const BuyLinksUS: LinkDictionary = {
         {"title": "Vivlio", "link": "https://shop.vivlio.com/product/9798224063291_9798224063291_10020/the-red-raven0"},
     ],
     "Call": [
-        {"title": "Amazon US", "link": "Coming soon"},
+        {"title": "Amazon US", "link": "https://www.amazon.com/Call-Black-Wing-Tales-Seann-ebook/dp/B0D94WWPLH"},
         {"title": "Barnes and Noble", "link": "https://www.barnesandnoble.com/w/call-of-the-black-wing-tristan-gray/1145979893"},
         {"title": "Apple Books", "link": "https://books.apple.com/us/book/call-of-the-black-wing/id6529521148"},
         {"title": "Smashwords", "link": "https://www.smashwords.com/books/view/1588128"},
