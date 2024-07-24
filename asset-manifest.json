@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.142a46bd.css",
-    "main.js": "/static/js/main.86b417d1.js",
-    "static/js/787.34537d63.chunk.js": "/static/js/787.34537d63.chunk.js",
+    "main.css": "/static/css/main.f408c6bf.css",
+    "main.js": "/static/js/main.53025616.js",
+    "static/js/787.dd857a59.chunk.js": "/static/js/787.dd857a59.chunk.js",
     "static/media/Anato Finnstark.png": "/static/media/Anato Finnstark.bb6e5e085623b2c2cf63.png",
     "static/media/Syd Mills.png": "/static/media/Syd Mills.b979440a982bb82e907a.png",
     "static/media/ALMG.png": "/static/media/ALMG.d6184f219295767bb85b.png",
@@ -59,12 +59,12 @@
     "static/media/Apple Books Logo.png": "/static/media/Apple Books Logo.672d0ec0f76890762614.png",
     "static/media/Menu.webp": "/static/media/Menu.ff03fc4a48c5b5810797.webp",
     "index.html": "/index.html",
-    "main.142a46bd.css.map": "/static/css/main.142a46bd.css.map",
-    "main.86b417d1.js.map": "/static/js/main.86b417d1.js.map",
-    "787.34537d63.chunk.js.map": "/static/js/787.34537d63.chunk.js.map"
+    "main.f408c6bf.css.map": "/static/css/main.f408c6bf.css.map",
+    "main.53025616.js.map": "/static/js/main.53025616.js.map",
+    "787.dd857a59.chunk.js.map": "/static/js/787.dd857a59.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.142a46bd.css",
-    "static/js/main.86b417d1.js"
+    "static/css/main.f408c6bf.css",
+    "static/js/main.53025616.js"
   ]
 }
