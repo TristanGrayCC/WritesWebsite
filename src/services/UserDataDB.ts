@@ -31,8 +31,9 @@ export class UserDataDB {
         null,
         null,
         null,
+        null,
         ]
     }
 
-    public getUserTarget = () => 5000;
+    public getUserTarget = () => 50000;
 }
