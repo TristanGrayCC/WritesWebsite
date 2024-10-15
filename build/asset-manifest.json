@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.f408c6bf.css",
-    "main.js": "/static/js/main.53025616.js",
-    "static/js/787.dd857a59.chunk.js": "/static/js/787.dd857a59.chunk.js",
+    "main.css": "/static/css/main.18d4df9a.css",
+    "main.js": "/static/js/main.fbb137d8.js",
+    "static/js/453.e4fd555b.chunk.js": "/static/js/453.e4fd555b.chunk.js",
     "static/media/Anato Finnstark.png": "/static/media/Anato Finnstark.bb6e5e085623b2c2cf63.png",
     "static/media/Syd Mills.png": "/static/media/Syd Mills.b979440a982bb82e907a.png",
     "static/media/ALMG.png": "/static/media/ALMG.d6184f219295767bb85b.png",
@@ -41,6 +41,10 @@
     "static/media/Control.jpg": "/static/media/Control.09a0650f08cb87df10f4.jpg",
     "static/media/Shadow of War.jpg": "/static/media/Shadow of War.d73274f3a6f4385acf86.jpg",
     "static/media/TG Transparent Background.png": "/static/media/TG Transparent Background.faf3c8071992242c5fb3.png",
+    "static/media/3 streak.png": "/static/media/3 streak.ba287d3d3b3a08f0d9fe.png",
+    "static/media/5 streak.png": "/static/media/5 streak.d95c2717ded728bfa2b7.png",
+    "static/media/Full streak.png": "/static/media/Full streak.b66ecab251da59b38391.png",
+    "static/media/15 streak.png": "/static/media/15 streak.e0e2fbab21ce92885a06.png",
     "static/media/BandN.png": "/static/media/BandN.1e809797fc1e700cdf62.png",
     "static/media/Daughter of the Empire.jpg": "/static/media/Daughter of the Empire.9b20dfb0a903ee9579ab.jpg",
     "static/media/DIE.jpg": "/static/media/DIE.5c56c1223f3cfedbc5cd.jpg",
@@ -48,7 +52,12 @@
     "static/media/Magician.jpg": "/static/media/Magician.2d54e8b2f27b92cd1cb1.jpg",
     "static/media/Goodreads.png": "/static/media/Goodreads.c4aa0a1ed940e524e0a1.png",
     "static/media/Amazon logo.png": "/static/media/Amazon logo.19e5df3e3e8811e0564a.png",
+    "static/media/25k words.png": "/static/media/25k words.90dca56760692a4aaf24.png",
+    "static/media/10k words.png": "/static/media/10k words.dfb88eefd67f51871a48.png",
+    "static/media/50k words.png": "/static/media/50k words.6d8e1c040e8eed8e59ae.png",
+    "static/media/5k words.png": "/static/media/5k words.3190930f9c5ef0725173.png",
     "static/media/Priory.jpg": "/static/media/Priory.3a9605ee9c29bcdded0b.jpg",
+    "static/media/First Words.png": "/static/media/First Words.7fdba82256a769bb3328.png",
     "static/media/mastodon.png": "/static/media/mastodon.8ff09511faaf1cb26df6.png",
     "static/media/Isola.jpg": "/static/media/Isola.daa0714be8e508b60ec6.jpg",
     "static/media/ImperatorSmallCaps.ttf": "/static/media/ImperatorSmallCaps.7bee243584e2c4cf73ec.ttf",
@@ -59,12 +68,12 @@
     "static/media/Apple Books Logo.png": "/static/media/Apple Books Logo.672d0ec0f76890762614.png",
     "static/media/Menu.webp": "/static/media/Menu.ff03fc4a48c5b5810797.webp",
     "index.html": "/index.html",
-    "main.f408c6bf.css.map": "/static/css/main.f408c6bf.css.map",
-    "main.53025616.js.map": "/static/js/main.53025616.js.map",
-    "787.dd857a59.chunk.js.map": "/static/js/787.dd857a59.chunk.js.map"
+    "main.18d4df9a.css.map": "/static/css/main.18d4df9a.css.map",
+    "main.fbb137d8.js.map": "/static/js/main.fbb137d8.js.map",
+    "453.e4fd555b.chunk.js.map": "/static/js/453.e4fd555b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f408c6bf.css",
-    "static/js/main.53025616.js"
+    "static/css/main.18d4df9a.css",
+    "static/js/main.fbb137d8.js"
   ]
 }

@@ -1,4 +1,4 @@
-import LinkItem from "../Pages/Main/LinkItem";
+import LinkItem from "../pages/Main/LinkItem";
 
 type LinkDictionary = { [key: string]: LinkItem[] };
 
