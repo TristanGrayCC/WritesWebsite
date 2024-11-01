@@ -57,6 +57,32 @@ function EdNoWriMo() {
     <div className="App">
       <HeaderMenu />
       <div className="endowrimo-page">
+        <div className="stats">
+          <div className="stat-block">
+            <p>My goal:</p>
+            <p className="score-percent">{target.toLocaleString()}</p>
+            <p className="score-percent-plus">words</p>
+          </div>
+          <div className="stat-block">
+            <p>My current streak:</p>
+            <p className="score">{userData.currentStreak} days</p>
+          </div>
+          <div className="stat-block">
+            <p>My top streak:</p>
+            <p className="score">{userData.maxStreak} days</p>
+          </div>
+          <div className="stat-block">
+            <p>My current word count:</p>
+            <p className="score">{userData.maxWords.toLocaleString()} words</p>
+          </div>
+          <div className="stat-block">
+            <p>I am:</p>
+            <p className="score-percent">
+              {Math.round((userData.maxWords / target) * 100)}%
+            </p>
+            <p className="score-percent-plus">of the way there!</p>
+          </div>
+        </div>
         <LineChart width={900} height={450} data={data}>
           <XAxis dataKey="name" interval={0} tickLine={false} />
           <YAxis tickCount={6} />
@@ -73,11 +99,11 @@ function EdNoWriMo() {
         </LineChart>
         <div>
           <h3>Your Target</h3>
-          <input type="number" placeholder="50000" onChange={updateTarget} />
+          <input type="number" placeholder="20000" onChange={updateTarget} />
         </div>
-        <div>
+        <div className="progress">
           <h3 className="progress-header">Your Progress</h3>
-          {dailyInput.map((element, index) => {
+          {dailyInput.map((element: number | null, index: number) => {
             if (index > 0) {
               return (
                 <div
@@ -91,7 +117,7 @@ function EdNoWriMo() {
                   <h4>Day {index}</h4>
                   <input
                     type="number"
-                    placeholder={(element ?? currentMax).toString()}
+                    placeholder={(element ?? "").toString()}
                     disabled={currentDay < index || currentDay > index}
                     onChange={(event) =>
                       updateProgress(index, event.target.valueAsNumber)
