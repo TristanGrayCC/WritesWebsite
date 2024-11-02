@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.506c4dcd.css",
-    "main.js": "/static/js/main.032da539.js",
+    "main.js": "/static/js/main.22f3dfb3.js",
     "static/js/453.e4fd555b.chunk.js": "/static/js/453.e4fd555b.chunk.js",
     "static/media/Anato Finnstark.png": "/static/media/Anato Finnstark.bb6e5e085623b2c2cf63.png",
     "static/media/Syd Mills.png": "/static/media/Syd Mills.b979440a982bb82e907a.png",
@@ -58,7 +58,6 @@
     "static/media/5k words.png": "/static/media/5k words.3190930f9c5ef0725173.png",
     "static/media/Priory.jpg": "/static/media/Priory.3a9605ee9c29bcdded0b.jpg",
     "static/media/First Words.png": "/static/media/First Words.7fdba82256a769bb3328.png",
-    "static/media/mastodon.png": "/static/media/mastodon.8ff09511faaf1cb26df6.png",
     "static/media/Isola.jpg": "/static/media/Isola.daa0714be8e508b60ec6.jpg",
     "static/media/ImperatorSmallCaps.ttf": "/static/media/ImperatorSmallCaps.7bee243584e2c4cf73ec.ttf",
     "static/media/eBooks.png": "/static/media/eBooks.fae38ca7e5735c5173a5.png",
@@ -69,11 +68,11 @@
     "static/media/Menu.webp": "/static/media/Menu.ff03fc4a48c5b5810797.webp",
     "index.html": "/index.html",
     "main.506c4dcd.css.map": "/static/css/main.506c4dcd.css.map",
-    "main.032da539.js.map": "/static/js/main.032da539.js.map",
+    "main.22f3dfb3.js.map": "/static/js/main.22f3dfb3.js.map",
     "453.e4fd555b.chunk.js.map": "/static/js/453.e4fd555b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.506c4dcd.css",
-    "static/js/main.032da539.js"
+    "static/js/main.22f3dfb3.js"
   ]
 }

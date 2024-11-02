@@ -2,10 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 const Facebook = require("../../images/logos/Facebook.png");
 const Instagram = require("../../images/logos/Instagram.png");
-const Twitter = require("../../images/logos/Twitter.png");
 const Goodreads = require("../../images/logos/Goodreads.png");
 const Tiktok = require("../../images/logos/Tiktok.png");
-const Mastodon = require("../../images/logos/mastodon.png");
 const Bluesky = require("../../images/logos/Bluesky.png");
 const menu = require("../../images/Menu.webp");
 
@@ -65,20 +63,6 @@ class HeaderMenu extends React.Component<{}, MenuState> {
             href="https://www.instagram.com/tgraywrites"
           >
             <img src={Instagram} alt="Instagram" />
-          </a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://twitter.com/TGrayWrites"
-          >
-            <img src={Twitter} alt="Twitter" />
-          </a>
-          <a
-            target="_blank"
-            rel="me noreferrer"
-            href="https://mastodon.scot/@tree"
-          >
-            <img src={Mastodon} alt="Mastodon" />
           </a>
           <a
             target="_blank"
