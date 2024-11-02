@@ -23,14 +23,12 @@ function EdNoWriMo() {
   const maxNumber = () => {
     return dailyInput.reduce((a, b) => Math.max(a ?? 0, b ?? 0)) ?? 0;
   };
-  const currentMax = userData.maxWords;
-  const [currentDaily, setCurrentDaily] = useState(currentMax / currentDay);
 
   const data = dailyInput.map((value, index) => ({
     name: index,
     Target: dailyTarget * index,
     Actual: value,
-    Projection: currentDaily * index,
+    Projection: userData.maxWords / (currentDay / index),
   }));
 
   const updateTarget = (e: ChangeEvent<HTMLInputElement>) => {
@@ -45,12 +43,6 @@ function EdNoWriMo() {
     }
     dailyArray[index] = value;
     setDailyInput(dailyArray);
-    setDailyTrend();
-  };
-
-  const setDailyTrend = () => {
-    const value = maxNumber();
-    setCurrentDaily(value / currentDay);
   };
 
   return (
@@ -73,7 +65,7 @@ function EdNoWriMo() {
           </div>
           <div className="stat-block">
             <p>My current word count:</p>
-            <p className="score">{userData.maxWords.toLocaleString()} words</p>
+            <p className="score">{userData.maxWords.toLocaleString()}</p>
           </div>
           <div className="stat-block">
             <p>I am:</p>
