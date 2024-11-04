@@ -64,6 +64,10 @@ function EdNoWriMo() {
             <p className="score">{userData.maxStreak} days</p>
           </div>
           <div className="stat-block">
+            <p>Most daily words:</p>
+            <p className="score">{userData.maxWordsDaily.toLocaleString()}</p>
+          </div>
+          <div className="stat-block">
             <p>My current word count:</p>
             <p className="score">{userData.maxWords.toLocaleString()}</p>
           </div>
