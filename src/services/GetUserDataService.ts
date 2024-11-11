@@ -1,4 +1,5 @@
 import { UserData } from "../models/UserData";
+import { UserProject } from "../models/UserProject";
 import { UserDataDB } from "./UserDataDB";
 
 export class GetUserDataService {
@@ -10,9 +11,14 @@ export class GetUserDataService {
     private fetchUserData = (): UserData => {
         //will be used to fetch data from server
         const userDataDB = new UserDataDB();
-        const userInput = this.updateUserInput(userDataDB.getUserInput());
-        const userTarget = userDataDB.getUserTarget();
-        return new UserData(userInput, userTarget, this.calcCurrentStreak(userInput), this.calcMaxStreak(userInput), this.calcMaxWords(userInput), this.calcMaxWordsDaily(userInput));
+        const userProjects = userDataDB.projects;
+        const projects = new Array<UserProject>();
+        userProjects.forEach(project => {
+            const projectInput = this.updateUserInput(project.projectData);
+            const formattedProject = new UserProject(project.name, projectInput, project.projectTarget, project.startDate, project.endDate, this.calcCurrentStreak(projectInput), this.calcMaxStreak(projectInput), this.calcMaxWords(projectInput), this.calcMaxWordsDaily(projectInput));
+            projects.push(formattedProject);
+        })
+        return new UserData(projects);
     }
 
     private updateUserInput = (userInput: (number | null)[]): (number | null)[] => {

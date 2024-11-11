@@ -116,6 +116,34 @@
             height: 100px;
         }
     }
+
+    .project-selector {
+        display: none;
+    }
+
+    .selector-open {
+        display: flex;
+        position: fixed;
+        width: 250px;
+        height: 40px;
+        border: white 1px solid;
+        border-radius: 5px;
+        top: calc(50% - 200px);
+        left: calc(50% - 125px);
+        background-color: $background;
+        padding: 20px;
+
+        .select-dropdown {
+            display: inline-block;
+            margin-right: 40px;
+        }
+
+        button {
+            display: inline-block;
+            vertical-align: top;
+            height: 23px;
+        }
+    }
 }
 
 @media (max-width: 1000px) {

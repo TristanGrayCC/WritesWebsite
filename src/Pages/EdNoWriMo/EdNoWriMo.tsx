@@ -3,6 +3,8 @@ import HeaderMenu from "../Menu/HeaderMenu";
 import { LineChart, Line, CartesianGrid, XAxis, YAxis } from "recharts";
 import classNames from "classnames";
 import { GetUserDataService } from "../../services/GetUserDataService";
+import Select from "react-select";
+import { UserProject } from "../../models/UserProject";
 const threeStreak = require("../../images/ednowrimo/3 streak.png");
 const fiveStreak = require("../../images/ednowrimo/5 streak.png");
 const fifteenStreak = require("../../images/ednowrimo/15 streak.png");
@@ -14,11 +16,16 @@ const fiftykwords = require("../../images/ednowrimo/50k words.png");
 const firstwords = require("../../images/ednowrimo/First Words.png");
 
 function EdNoWriMo() {
+  const [projectSelectorOpen, setProjectSelectorOpen] = useState(false);
   const getUserDataService = new GetUserDataService();
   const userData = getUserDataService.getUserData();
+  const latestProject = userData.projects.sort(
+    (a, b) => a.endDate.getDate() - b.endDate.getDate()
+  )[0];
   const currentDay = new Date().getDate();
-  const [dailyInput, setDailyInput] = useState(userData.dailyInputs);
-  const [target, setTarget] = useState(userData.target);
+  const [selectedProject, setSelectedProject] = useState(latestProject);
+  const [dailyInput, setDailyInput] = useState(selectedProject.dailyInputs);
+  const [target, setTarget] = useState(selectedProject.target);
   const [dailyTarget, setDailyTarget] = useState(target / 30);
   const maxNumber = () => {
     return dailyInput.reduce((a, b) => Math.max(a ?? 0, b ?? 0)) ?? 0;
@@ -28,7 +35,7 @@ function EdNoWriMo() {
     name: index,
     Target: dailyTarget * index,
     Actual: value,
-    Projection: userData.maxWords / (currentDay / index),
+    Projection: selectedProject.maxWords / (currentDay / index),
   }));
 
   const updateTarget = (e: ChangeEvent<HTMLInputElement>) => {
@@ -45,10 +52,26 @@ function EdNoWriMo() {
     setDailyInput(dailyArray);
   };
 
+  const updateProject = (project: UserProject) => {
+    setSelectedProject(project);
+    setDailyInput(selectedProject.dailyInputs);
+    setTarget(selectedProject.target);
+    setDailyTarget(target / 30);
+  };
+
   return (
     <div className="App">
       <HeaderMenu />
       <div className="endowrimo-page">
+        <div>
+          <h2>{selectedProject.name}</h2>
+          <button
+            hidden={userData.projects.length < 2}
+            onClick={() => setProjectSelectorOpen(true)}
+          >
+            Change Project
+          </button>
+        </div>
         <div className="stats">
           <div className="stat-block">
             <p>My goal:</p>
@@ -57,24 +80,26 @@ function EdNoWriMo() {
           </div>
           <div className="stat-block">
             <p>My current streak:</p>
-            <p className="score">{userData.currentStreak} days</p>
+            <p className="score">{selectedProject.currentStreak} days</p>
           </div>
           <div className="stat-block">
             <p>My top streak:</p>
-            <p className="score">{userData.maxStreak} days</p>
+            <p className="score">{selectedProject.maxStreak} days</p>
           </div>
           <div className="stat-block">
             <p>Most daily words:</p>
-            <p className="score">{userData.maxWordsDaily.toLocaleString()}</p>
+            <p className="score">
+              {selectedProject.maxWordsDaily.toLocaleString()}
+            </p>
           </div>
           <div className="stat-block">
             <p>My current word count:</p>
-            <p className="score">{userData.maxWords.toLocaleString()}</p>
+            <p className="score">{selectedProject.maxWords.toLocaleString()}</p>
           </div>
           <div className="stat-block">
             <p>I am:</p>
             <p className="score-percent">
-              {Math.round((userData.maxWords / target) * 100)}%
+              {Math.round((selectedProject.maxWords / target) * 100)}%
             </p>
             <p className="score-percent-plus">of the way there!</p>
           </div>
@@ -126,29 +151,47 @@ function EdNoWriMo() {
         </div>
         <div className="awards">
           <h3>Your Awards</h3>
-          {userData.maxWords > 0 && <img alt="first words" src={firstwords} />}
-          {userData.maxStreak > 3 && (
+          {selectedProject.maxWords > 0 && (
+            <img alt="first words" src={firstwords} />
+          )}
+          {selectedProject.maxStreak > 3 && (
             <img alt="three streak" src={threeStreak} />
           )}
-          {userData.maxStreak > 5 && <img alt="five streak" src={fiveStreak} />}
-          {userData.maxStreak > 15 && (
+          {selectedProject.maxStreak > 5 && (
+            <img alt="five streak" src={fiveStreak} />
+          )}
+          {selectedProject.maxStreak > 15 && (
             <img alt="fifteen streak" src={fifteenStreak} />
           )}
-          {userData.maxStreak > 29 && (
+          {selectedProject.maxStreak > 29 && (
             <img alt="full streak" src={fullStreak} />
           )}
-          {userData.maxWords > 5000 && (
+          {selectedProject.maxWords > 5000 && (
             <img alt="5k words written" src={fivekwords} />
           )}
-          {userData.maxWords > 10000 && (
+          {selectedProject.maxWords > 10000 && (
             <img alt="10k words written" src={tenkwords} />
           )}
-          {userData.maxWords > 25000 && (
+          {selectedProject.maxWords > 25000 && (
             <img alt="25k words written" src={twentyfivekwords} />
           )}
-          {userData.maxWords > 49000 && (
+          {selectedProject.maxWords > 49000 && (
             <img alt="50k words written" src={fiftykwords} />
           )}
+        </div>
+        <div
+          className={classNames(
+            "project-selector",
+            projectSelectorOpen ? "selector-open" : ""
+          )}
+        >
+          <Select
+            className="select-dropdown"
+            options={userData.projects}
+            onChange={(value) => updateProject(value ?? latestProject)}
+            getOptionLabel={(value) => value.name}
+          ></Select>
+          <button onClick={() => setProjectSelectorOpen(false)}>x</button>
         </div>
       </div>
     </div>

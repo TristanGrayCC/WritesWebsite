@@ -1,39 +1,15 @@
+import { ProjectDB } from "./ProjectDB";
+import { UserProjectsDB } from "./UserProjectsDB";
+
 export class UserDataDB {
-    public getUserInput = (): Array<number | null> => { 
-        return [
-        0,
-        681,
-        890,
-        1367,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        ]
+    constructor() {
+        this.id = 1;
+        this.name = "Tristan";
+        this.projects = new UserProjectsDB().userProjects;
     }
 
-    public getUserTarget = () => 20000;
+    
+    id: number;
+    name: string;
+    projects: Array<ProjectDB>;
 }
