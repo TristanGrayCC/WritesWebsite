@@ -36,7 +36,7 @@ export class UserProjectsDB {
             3663,
             3663,
             3663,
-            3996,
+            4079,
             ];
         EdNoWriMo2024.projectTarget = 20000;
         EdNoWriMo2024.startDate = new Date(2024, 10, 1);
