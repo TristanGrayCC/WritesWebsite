@@ -46,7 +46,6 @@ class HeaderMenu extends React.Component<{}, MenuState> {
           <NavLink to="/Writing">Other Writing</NavLink>
           <NavLink to="/Languages">Language</NavLink>
           <NavLink to="/Recommendations">Recommendations</NavLink>
-          <NavLink to="/EdNoWriMo">EdNoWriMo</NavLink>
         </div>
         <div className="social">
           <a

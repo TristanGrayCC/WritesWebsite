@@ -15,6 +15,15 @@ const twentyfivekwords = require("../../images/ednowrimo/25k words.png");
 const fiftykwords = require("../../images/ednowrimo/50k words.png");
 const firstwords = require("../../images/ednowrimo/First Words.png");
 
+const dateDifferenceInDays = (a: Date, b: Date): number => {
+  const _MS_PER_DAY = 1000 * 60 * 60 * 24;
+  // Discard the time and time-zone information.
+  const utc1 = Date.UTC(a.getFullYear(), a.getMonth(), a.getDate());
+  const utc2 = Date.UTC(b.getFullYear(), b.getMonth(), b.getDate());
+
+  return Math.floor((utc2 - utc1) / _MS_PER_DAY);
+};
+
 function EdNoWriMo() {
   const [projectSelectorOpen, setProjectSelectorOpen] = useState(false);
   const getUserDataService = new GetUserDataService();
@@ -22,8 +31,11 @@ function EdNoWriMo() {
   const latestProject = userData.projects.sort(
     (a, b) => a.endDate.getDate() - b.endDate.getDate()
   )[0];
-  const currentDay = new Date().getDate();
   const [selectedProject, setSelectedProject] = useState(latestProject);
+  const currentDay = dateDifferenceInDays(
+    selectedProject.startDate,
+    new Date()
+  );
   const [dailyInput, setDailyInput] = useState(selectedProject.dailyInputs);
   const [target, setTarget] = useState(selectedProject.target);
   const [dailyTarget, setDailyTarget] = useState(target / 30);
