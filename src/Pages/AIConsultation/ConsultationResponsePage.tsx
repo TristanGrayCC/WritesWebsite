@@ -130,7 +130,8 @@ function BlogPage() {
             what should that be?
           </h3>
           Yes, it's the government's job to enforce laws including those on
-          copyright and intellectual property. Contracts and licensing
+          copyright and intellectual property.
+          <h2>Contracts and licensing</h2>
           <h3>
             16 Does current practice relating to the licensing of copyright
             works for AI training meet the needs of creators and performers?
@@ -172,8 +173,8 @@ function BlogPage() {
             AI firms when providing transparency over the inputs to generative
             models?
           </h3>
-          Please provide further comments Every distinct piece of data and
-          creator of that data should be identifiable
+          Every distinct piece of data and creator of that data should be
+          identifiable
           <h3>
             24 What transparency should be required in relation to web crawlers?
           </h3>
@@ -188,13 +189,13 @@ function BlogPage() {
           practice if they continue to systematically ignore transparency rules
           <h3>
             26 Where possible, please indicate what you anticipate the costs of
-            introducing transparency measures on AI developers would be.
+            introducing transparency measures on AI developers would be. Please
+            indicate the anticipated costs of transparency measures.
           </h3>
-          Please indicate the anticipated costs of transparency measures. Low.
-          Sufficient charges for breaches of transparency should be an adequate
-          deterrent. Given that the UK Government already successfully chases
-          non-compliance with BBC TV Licences on a wide scale such an operation
-          should not be especially difficult or expensive
+          Low. Sufficient charges for breaches of transparency should be an
+          adequate deterrent. Given that the UK Government already successfully
+          chases non-compliance with BBC TV Licences on a wide scale such an
+          operation should not be especially difficult or expensive
           <h3>
             27 How can compliance with transparency requirements be encouraged,
             and does this require regulatory underpinning?
@@ -203,8 +204,8 @@ function BlogPage() {
           regime would be meaningless and completely require compliance from. It
           should be enforced with fines and corporate consequences.
           <h3>28 What are your views on the EU’s approach to transparency?</h3>
-          Better than the UK's, given there actually is one Wider clarification
-          of copyright law
+          Better than the UK's, given there actually is one
+          <h2>Wider clarification of copyright law</h2>
           <h3>
             29 What steps can the government take to encourage AI developers to
             train their models in the UK and in accordance with UK law to ensure
@@ -235,8 +236,7 @@ function BlogPage() {
             32 If so, how could this be done in a way that does not undermine
             the intended purpose of this exception?
           </h3>
-          Please provide further comments See above Encouraging research and
-          innovation
+          See above Encouraging research and innovation
           <h3>
             33 Does the existing data mining exception for non-commercial
             research remain fit for purpose?
@@ -288,7 +288,7 @@ function BlogPage() {
             organisation? If so, how? Please provide quantitative information
             where possible.
           </h3>
-          Significant negative impact Allowing GenerativeAI products to be
+          Significant negative impact. Allowing Generative AI products to be
           copyrightable will allow people to functionally use these models to
           recreate the work of authors and artists almost exactly, then
           copyright it as if it's their own, creating a legal mess over
@@ -310,14 +310,14 @@ function BlogPage() {
             42 Would the removal of the current CGW provision affect you or your
             organisation? Please provide quantitative information where possible
           </h3>
-          Significant positive effectIt would prevent the eradication of the
+          Significant positive effect. It would prevent the eradication of the
           arts community by Generative AI prompters.
           <h2>Infringement and liability relating to AI-generated content</h2>
           <h3>
             43 Does the current approach to liability in AI-generated outputs
             allow effective enforcement of copyright?
           </h3>
-          No There currently isn't any effective enforcement of copyright in
+          No. There currently isn't any effective enforcement of copyright in
           this area
           <h3>
             44 What steps should AI providers take to avoid copyright infringing
