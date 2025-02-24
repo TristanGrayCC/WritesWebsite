@@ -11,6 +11,8 @@ import OtherWritingPage from "./pages/OtherWriting/OtherWritingPage";
 import BlogPage from "./pages/Blog/BlogPage";
 import PaymentCompletePage from "./pages/Payment Complete/PaymentComplete";
 import EdNoWriMo from "./pages/EdNoWriMo/EdNoWriMo";
+import ConsultationResponsePage from "./pages/AIConsultation/ConsultationResponsePage";
+import { createRoot } from "react-dom/client";
 
 const routing = (
   <HashRouter>
@@ -23,11 +25,14 @@ const routing = (
       <Route path="/Writing" element={<OtherWritingPage />} />
       <Route path="/Payment" element={<PaymentCompletePage />} />
       <Route path="/EdNoWriMo" element={<EdNoWriMo />} />
+      <Route path="/AIConsultation" element={<ConsultationResponsePage />} />
     </Routes>
   </HashRouter>
 );
 
-ReactDOM.render(routing, document.getElementById("root"));
+const container = document.getElementById("root")!;
+const root = createRoot(container);
+root.render(routing);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

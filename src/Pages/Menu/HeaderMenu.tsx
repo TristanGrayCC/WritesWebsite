@@ -1,4 +1,4 @@
-import React from "react";
+import React, { JSX } from "react";
 import { NavLink } from "react-router-dom";
 const Facebook = require("../../images/logos/Facebook.png");
 const Instagram = require("../../images/logos/Instagram.png");
@@ -46,6 +46,7 @@ class HeaderMenu extends React.Component<{}, MenuState> {
           <NavLink to="/Writing">Other Writing</NavLink>
           <NavLink to="/Languages">Language</NavLink>
           <NavLink to="/Recommendations">Recommendations</NavLink>
+          <NavLink to="/AIConsultation">AI Consultation</NavLink>
         </div>
         <div className="social">
           <a
