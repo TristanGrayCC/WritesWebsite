@@ -1,3 +1,5 @@
+@use "params";
+
 .main-page{
     button {
         background: none;
@@ -23,7 +25,7 @@
         padding: 20px;
         
         a {
-            font-family: $mainfont;
+            font-family: params.$mainfont;
             color: white;
             text-decoration: none;
         }
@@ -50,7 +52,7 @@
         .book-item {
             display: inline-block;
             margin: 20px;
-            color: $mainfontcolor;
+            color: params.$mainfontcolor;
             width: 400px;
             vertical-align: top;
 
@@ -61,7 +63,7 @@
                 h3 {
                     font-weight: 100;
                     font-size: 18px;
-                    font-family: $mainfont;
+                    font-family: params.$mainfont;
                 }
     
                 img {

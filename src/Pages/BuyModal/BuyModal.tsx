@@ -1,6 +1,6 @@
 import React, { JSX } from "react";
 
-const whispers = require("../../images/book-covers/small/Whispers.png");
+import whispers from "../../images/book-covers/small/Whispers.png";
 
 interface BuyModalProps {
   onClick: Function;

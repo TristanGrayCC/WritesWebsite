@@ -2,14 +2,14 @@ import React, { JSX } from "react";
 import { Book } from "../../dtos/enums";
 import BuyLinksUK from "../../dtos/BuyLinksUK";
 import BuyLinksUS from "../../dtos/BuyLinksUS";
-const uk = require("../../images/logos/UK Flag.png");
-const usa = require("../../images/logos/USA Flag.png");
-const amazon = require("../../images/logos/Amazon logo.png");
-const bandn = require("../../images/logos/BandN.png");
-const kobo = require("../../images/logos/Kobo-logo.png");
-const apple = require("../../images/logos/Apple Books Logo.png");
-const ebooks = require("../../images/logos/eBooks.png");
-const waterstones = require("../../images/logos/Waterstones.png");
+import uk from "../../images/logos/UK Flag.png";
+import usa from "../../images/logos/USA Flag.png";
+import amazon from "../../images/logos/Amazon logo.png";
+import bandn from "../../images/logos/BandN.png";
+import kobo from "../../images/logos/Kobo-logo.png";
+import apple from "../../images/logos/Apple Books Logo.png";
+import ebooks from "../../images/logos/eBooks.png";
+import waterstones from "../../images/logos/Waterstones.png";
 
 interface BuyPopupProps {
   onClose: Function;

@@ -1,5 +1,7 @@
+@use "params";
+
 body {
-    background-color: $background;
+    background-color: params.$background;
 #root {
     position: absolute;
     top: 0;
@@ -10,10 +12,10 @@ body {
         min-width: calc(100vw - 20px);
         overflow-x: none;
         text-align: center;
-        color: $mainfontcolor;
+        color: params.$mainfontcolor;
 
         h1, h2, h3 {
-            font-family: $mainfont;
+            font-family: params.$mainfont;
             font-variant: small-caps;
         }
     }

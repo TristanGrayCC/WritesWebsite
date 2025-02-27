@@ -1,13 +1,13 @@
 import React, { JSX } from "react";
 import { NavLink } from "react-router-dom";
-const Facebook = require("../../images/logos/Facebook.png");
-const Instagram = require("../../images/logos/Instagram.png");
-const Goodreads = require("../../images/logos/Goodreads.png");
-const Tiktok = require("../../images/logos/Tiktok.png");
-const Bluesky = require("../../images/logos/Bluesky.png");
-const menu = require("../../images/Menu.webp");
+import Facebook from "../../images/logos/Facebook.png";
+import Instagram from "../../images/logos/Instagram.png";
+import Goodreads from "../../images/logos/Goodreads.png";
+import Tiktok from "../../images/logos/Tiktok.png";
+import Bluesky from "../../images/logos/Bluesky.png";
+import menu from "../../images/Menu.webp";
 
-const logo = require("../../images/TG Transparent Background.png");
+import logo from "../../images/TG Transparent Background.png";
 
 interface MenuState {
   menuShown: boolean;

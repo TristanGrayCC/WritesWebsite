@@ -1,17 +1,18 @@
+@use "sass:meta";
 @import url('https://fonts.googleapis.com/css?family=Metamorphous');
 
-@import "./styles/params";
+@include meta.load-css("styles/params");
 
-@import "./styles/general";
+@include meta.load-css("styles/general");
 
-@import "./styles/mainpage";
-@import "./styles/aboutpage";
-@import "./styles/languagepage";
-@import "./styles/swiper";
-@import "./styles/header";
-@import "./styles/buy";
-@import "./styles/buymodal";
-@import "./styles/goodreads";
-@import "./styles/blogpage";
-@import "./styles/ednowrimo";
-@import "./styles/consultationresponsepage";
+@include meta.load-css("styles/mainpage");
+@include meta.load-css("styles/aboutpage");
+@include meta.load-css("styles/languagepage");
+@include meta.load-css("styles/swiper");
+@include meta.load-css("styles/header");
+@include meta.load-css("styles/buy");
+@include meta.load-css("styles/buymodal");
+@include meta.load-css("styles/goodreads");
+@include meta.load-css("styles/blogpage");
+@include meta.load-css("styles/ednowrimo");
+@include meta.load-css("styles/consultationresponsepage");

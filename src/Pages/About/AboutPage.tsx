@@ -1,6 +1,5 @@
-import React from "react";
 import HeaderMenu from "../Menu/HeaderMenu";
-const profile = require("../../images/Profile.png");
+import profile from "../../images/Profile.png";
 
 function AboutPage() {
   return (

@@ -1,3 +1,5 @@
+@use "params";
+
 .endowrimo-page {
     max-width: 1000px;
     margin-left: calc(50vw - 500px);
@@ -130,7 +132,7 @@
         border-radius: 5px;
         top: calc(50% - 200px);
         left: calc(50% - 125px);
-        background-color: $background;
+        background-color: params.$background;
         padding: 20px;
 
         .select-dropdown {

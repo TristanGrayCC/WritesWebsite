@@ -1,19 +1,19 @@
-import React, { ChangeEvent, useState } from "react";
+import { ChangeEvent, useState } from "react";
 import HeaderMenu from "../Menu/HeaderMenu";
 import { LineChart, Line, CartesianGrid, XAxis, YAxis } from "recharts";
 import classNames from "classnames";
 import { GetUserDataService } from "../../services/GetUserDataService";
 import Select from "react-select";
 import { UserProject } from "../../models/UserProject";
-const threeStreak = require("../../images/ednowrimo/3 streak.png");
-const fiveStreak = require("../../images/ednowrimo/5 streak.png");
-const fifteenStreak = require("../../images/ednowrimo/15 streak.png");
-const fullStreak = require("../../images/ednowrimo/Full streak.png");
-const fivekwords = require("../../images/ednowrimo/5k words.png");
-const tenkwords = require("../../images/ednowrimo/10k words.png");
-const twentyfivekwords = require("../../images/ednowrimo/25k words.png");
-const fiftykwords = require("../../images/ednowrimo/50k words.png");
-const firstwords = require("../../images/ednowrimo/First Words.png");
+import threeStreak from "../../images/ednowrimo/3 streak.png";
+import fiveStreak from "../../images/ednowrimo/5 streak.png";
+import fifteenStreak from "../../images/ednowrimo/15 streak.png";
+import fullStreak from "../../images/ednowrimo/Full streak.png";
+import fivekwords from "../../images/ednowrimo/5k words.png";
+import tenkwords from "../../images/ednowrimo/10k words.png";
+import twentyfivekwords from "../../images/ednowrimo/25k words.png";
+import fiftykwords from "../../images/ednowrimo/50k words.png";
+import firstwords from "../../images/ednowrimo/First Words.png";
 
 const dateDifferenceInDays = (a: Date, b: Date): number => {
   const _MS_PER_DAY = 1000 * 60 * 60 * 24;

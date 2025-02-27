@@ -1,3 +1,5 @@
+@use "params";
+
 .popup-wrapper{
     position: absolute;
     top: 0;
@@ -13,11 +15,11 @@
         text-align: center;
 
         .close-button {
-            background: $background;
+            background: params.$background;
             margin-top: 20px;
             padding: 5px;
             width: 50%;
-            color: $mainfontcolor;
+            color: params.$mainfontcolor;
             border: none;
             cursor: pointer;
             display: block;
@@ -25,7 +27,7 @@
         }
 
         h2 {
-            color: $mainfontcolor;
+            color: params.$mainfontcolor;
         }
 
         .region {

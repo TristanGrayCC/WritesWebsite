@@ -7,11 +7,11 @@ import BookItem from "./BookItem";
 import BuyLinksUK from "../../dtos/BuyLinksUK";
 import BuyLinksUS from "../../dtos/BuyLinksUS";
 import GoodreadsWidget from "./Goodreads";
-const whispers = require("../../images/book-covers/small/Whispers.png");
-const blackwing = require("../../images/book-covers/small/Blackwing.png");
-const trees = require("../../images/Trees.png");
-const map = require("../../images/Seann Aite.png");
-const arrow = require("../../images/Arrow.png");
+import whispers from "../../images/book-covers/small/Whispers.png";
+import blackwing from "../../images/book-covers/small/Blackwing.png";
+import trees from "../../images/Trees.png";
+import map from "../../images/Seann Aite.png";
+import arrow from "../../images/Arrow.png";
 
 const whispersDesc = (
   <p>
