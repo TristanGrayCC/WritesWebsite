@@ -1,5 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom";
 import MainPage from "./pages/Main/MainPage";
 import reportWebVitals from "./reportWebVitals";
 import "./App.scss";
