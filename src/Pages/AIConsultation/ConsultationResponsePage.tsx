@@ -14,6 +14,14 @@ function BlogPage() {
         </a>
         <div className="pdf">
           <p>
+            <b>
+              Please try and re-word your response - this is meant to be used as
+              an example to make it easier rather than to copy-and-paste. People
+              analysing responses will likely just collate copy-and-pasted
+              responses as basically just one to be concerned about.
+            </b>
+          </p>
+          <p>
             This consultation is deliberately designed to exhaust creatives who
             are low on time, and every hour spent filling in FIFTY PLUS
             questions laid out in this dense format removes them from the work
