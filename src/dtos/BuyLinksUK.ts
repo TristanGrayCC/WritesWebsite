@@ -43,6 +43,7 @@ const BuyLinksUK: LinkDictionary = {
     ],
     "Call": [
         {"title": "Direct from the author", "link": "https://ko-fi.com/tristangray/shop"},
+        {"title": "bookshop.org", "link": "https://uk.bookshop.org/a/5108/9781805178910"},
         {"title": "Amazon UK", "link": "https://www.amazon.co.uk/Call-Black-Wing-Tristan-Gray-ebook/dp/B0D94WWPLH"},
         {"title": "Kobo UK", "link": "https://www.kobo.com/gb/en/ebook/call-of-the-black-wing"},
         {"title": "Apple Books UK", "link": "https://books.apple.com/gb/book/call-of-the-black-wing/id6529521148"},
