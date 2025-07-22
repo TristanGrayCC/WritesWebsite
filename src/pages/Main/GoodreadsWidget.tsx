@@ -31,149 +31,37 @@ function GoodreadsWidget() {
             </a>
             <br />
             <div className="gr_review_stats">
-              reviews: 81
+              reviews: 85
               <br />
-              ratings: 126 <br />
-              (avg rating 3.94)
+              ratings: 132 <br />
+              (avg rating 3.93)
             </div>
           </div>
-
           <div className="gr_book_container">
             <a
-              title="Names of the Dead (Tales of the Seann Àite #2)"
+              title="Call of the Black Wing"
               className="gr_book_image"
               rel="nofollow"
-              href="https://www.goodreads.com/book/show/55814378-names-of-the-dead?utm_medium=api&utm_source=author_widget"
+              href="https://www.goodreads.com/book/show/216300112-call-of-the-black-wing? utm_medium=api&utm_source=author_widget"
             >
               <img
-                alt="Names of the Dead"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603917366l/55814378._SY75_.jpg"
+                alt="Call of the Black Wing"
+                src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1720560974i/216300112.jpg"
               />
             </a>
             <a
               className="gr_book_title"
               rel="nofollow"
-              href="https://www.goodreads.com/book/show/55814378-names-of-the-dead?utm_medium=api&utm_source=author_widget"
+              href="https://www.goodreads.com/book/show/216300112-call-of-the-black-wing?utm_medium=api&utm_source=author_widget"
             >
-              Names of the Dead (#2)
+              Call of the Black Wing
             </a>
             <br />
             <div className="gr_review_stats">
-              reviews: 27
+              reviews: 14
               <br />
-              ratings: 43 <br />
-              (avg rating 4.49)
-            </div>
-          </div>
-
-          <div className="gr_book_container">
-            <a
-              title="A Gift of the Sea (Tales of the Seann Àite #3)"
-              className="gr_book_image"
-              rel="nofollow"
-              href="https://www.goodreads.com/book/show/58399751-a-gift-of-the-sea?    utm_medium=api&utm_source=author_widget"
-            >
-              <img
-                alt="A Gift of the Sea"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624380459l/58399751._SX50_.jpg"
-              />
-            </a>
-            <a
-              className="gr_book_title"
-              rel="nofollow"
-              href="https://www.goodreads.com/book/show/58399751-a-gift-of-the-sea?utm_medium=api&utm_source=author_widget"
-            >
-              A Gift of the Sea (#3)
-            </a>
-            <br />
-            <div className="gr_review_stats">
-              reviews: 19
-              <br />
-              ratings: 23 <br />
-              (avg rating 4.65)
-            </div>
-          </div>
-
-          <div className="gr_book_container">
-            <a
-              title="The Woven Thread (Tales of the Seann Àite #4)"
-              className="gr_book_image"
-              rel="nofollow"
-              href="https://www.goodreads.com/book/show/60679169-the-woven-thread?  utm_medium=api&utm_source=author_widget"
-            >
-              <img
-                alt="The Woven Thread"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1648828392i/60679169._SX50_.jpg"
-              />
-            </a>
-            <a
-              className="gr_book_title"
-              rel="nofollow"
-              href="https://www.goodreads.com/book/show/60679169-the-woven-thread?utm_medium=api&utm_source=author_widget"
-            >
-              The Woven Thread (#4)
-            </a>
-            <br />
-            <div className="gr_review_stats">
-              reviews: 9
-              <br />
-              ratings: 13 <br />
-              (avg rating 4.69)
-            </div>
-          </div>
-
-          <div className="gr_book_container">
-            <a
-              title="Eyes of Gold (Tales of the Seann Àite #5)"
-              className="gr_book_image"
-              rel="nofollow"
-              href="https://www.goodreads.com/book/show/195855750-eyes-of-gold? utm_medium=api&utm_source=author_widget"
-            >
-              <img
-                alt="Eyes of Gold"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1695614990l/195855750._SX50_.jpg"
-              />
-            </a>
-            <a
-              className="gr_book_title"
-              rel="nofollow"
-              href="https://www.goodreads.com/book/show/195855750-eyes-of-gold?utm_medium=api&utm_source=author_widget"
-            >
-              Eyes of Gold (#5)
-            </a>
-            <br />
-            <div className="gr_review_stats">
-              reviews: 7
-              <br />
-              ratings: 10 <br />
-              (avg rating 4.6)
-            </div>
-          </div>
-          <div className="gr_book_container">
-            <a
-              title="The Red Raven (Tales of the Seann Àite #6)"
-              className="gr_book_image"
-              rel="nofollow"
-              href="https://www.goodreads.com/book/show/212762574-the-red-raven? utm_medium=api&utm_source=author_widget"
-            >
-              <img
-                alt="The Red Raven"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1714831037i/212762574._SY75_.jpg"
-              />
-            </a>
-            <a
-              className="gr_book_title"
-              rel="nofollow"
-              href="https://www.goodreads.com/book/show/212762574-the-red-raven?utm_medium=api&utm_source=author_widget"
-            >
-              The Red Raven (#6)
-            </a>
-            <br />
-            <div className="gr_review_stats">
-              reviews: 1
-              <br />
-              ratings: 1 <br />
-              (avg rating 4)
+              ratings: 29 <br />
+              (avg rating 4.59)
             </div>
           </div>
         </div>
