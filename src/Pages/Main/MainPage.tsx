@@ -3,15 +3,15 @@ import { Book } from "../../dtos/enums";
 import BuyPopup from "../Buy/BuyPopup";
 import BuyModal from "../BuyModal/BuyModal";
 import HeaderMenu from "../Menu/HeaderMenu";
-import BookItem from "./BookItem";
 import BuyLinksUK from "../../dtos/BuyLinksUK";
 import BuyLinksUS from "../../dtos/BuyLinksUS";
-import GoodreadsWidget from "./Goodreads";
+import GoodreadsWidget from "./GoodreadsWidget";
 import whispers from "../../images/book-covers/small/Whispers.png";
 import blackwing from "../../images/book-covers/small/Blackwing.png";
 import trees from "../../images/Trees.png";
 import map from "../../images/Seann Aite.png";
 import arrow from "../../images/Arrow.png";
+import { BookItem } from "./BookItem";
 
 const whispersDesc = (
   <p>

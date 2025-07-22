@@ -1,34 +1,29 @@
-import React, { JSX } from "react";
-import LinkItem from "./LinkItem";
-
+import type { ReactElement } from 'react';
+import { LinkItem } from './LinkItem';
 interface BookItemProps {
   bookItemTitle: string;
-  bookItemContent: JSX.Element;
+  bookItemContent: ReactElement;
   bookItemImage: string;
   bookItemLinksUK: LinkItem[];
   bookItemLinksUS: LinkItem[];
 }
 
-class BookItem extends React.Component<BookItemProps> {
-  public constructor(props: BookItemProps) {
-    super(props);
-  }
+export const BookItem = (props: BookItemProps): ReactElement => {
 
-  bookLinksUK: JSX.Element[] = [];
-  bookLinksUS: JSX.Element[] = [];
+  const bookLinksUK = Array<ReactElement>();
+  const bookLinksUS = Array<ReactElement>();
 
-  public render(): JSX.Element {
-    this.props.bookItemLinksUK.forEach((linkItem) => {
-      this.bookLinksUK.push(
+    props.bookItemLinksUK.forEach((item) => {
+      bookLinksUK.push(
         <div className="book-link">
-          <a href={linkItem.link}>{linkItem.title}</a>
+          <a href={item.link}>{item.title}</a>
         </div>
       );
     });
-    this.props.bookItemLinksUS.forEach((linkItem) => {
-      this.bookLinksUS.push(
+    props.bookItemLinksUS.forEach((item) => {
+      bookLinksUS.push(
         <div className="book-link">
-          <a href={linkItem.link}>{linkItem.title}</a>
+          <a href={item.link}>{item.title}</a>
         </div>
       );
     });
@@ -36,20 +31,17 @@ class BookItem extends React.Component<BookItemProps> {
       <div className="book-item">
         <div className="main-book-content">
           <img
-            src={this.props.bookItemImage}
-            alt={this.props.bookItemTitle + " cover"}
+            src={props.bookItemImage}
+            alt={props.bookItemTitle + " cover"}
           />
-          <h3>{this.props.bookItemTitle}</h3>
-          {this.props.bookItemContent}
+          <h3>{props.bookItemTitle}</h3>
+          {props.bookItemContent}
         </div>
         <div className="book-links">
-          {this.bookLinksUK}
+          {bookLinksUK}
           <br />
-          {this.bookLinksUS}
+          {bookLinksUS}
         </div>
       </div>
     );
-  }
 }
-
-export default BookItem;
