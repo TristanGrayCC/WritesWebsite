@@ -12,6 +12,8 @@ function BlogPage() {
             <a href="https://ko-fi.com/tristangray/posts">Link to Blog</a>
           </h1>
           <img className="arrow arrow-two" src={arrow} alt="Arrow" />
+          <br/>
+          <a href='https://ko-fi.com/post/GenAI-is-Coming-for-Your-Brain-A0A11FFDY2'>Gen AI is coming for your brain</a>
         </div>
       </div>
     </div>
