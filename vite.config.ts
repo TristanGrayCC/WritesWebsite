@@ -11,7 +11,7 @@ export default defineConfig({
     assetsDir: 'assets', // static assets (images, js, css, etc.)
   },
   plugins: [
-    react(), 
+    react(),
     viteTsconfigPaths(),
     svgr({
       include: '**/*.svg?react',
