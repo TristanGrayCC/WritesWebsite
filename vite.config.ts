@@ -5,6 +5,11 @@ import svgr from 'vite-plugin-svgr';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: './',              // ensure relative paths, e.g. in index.html
+  build: {
+    outDir: 'dist',      // gets deployed to github pages
+    assetsDir: 'assets', // static assets (images, js, css, etc.)
+  },
   plugins: [
     react(), 
     viteTsconfigPaths(),
