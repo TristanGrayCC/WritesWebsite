@@ -46,7 +46,7 @@ function GoodreadsWidget() {
             >
               <img
                 alt="Call of the Black Wing"
-                src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1720560974i/216300112.jpg"
+                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1720560974i/216300112.jpg"
               />
             </a>
             <a
