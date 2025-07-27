@@ -99,6 +99,15 @@
         .map-container {
             display: inline-block;
         }
+
+        .video-container {
+            height: 500px;
+            display: inline-block;
+
+            iframe {
+                height: 100%;
+            }
+        }
     }
 
     .map-section {

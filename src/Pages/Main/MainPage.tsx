@@ -12,6 +12,7 @@ import trees from "../../images/Trees.png";
 import map from "../../images/Seann Aite.png";
 import arrow from "../../images/Arrow.png";
 import { BookItem } from "./BookItem";
+import CallVideo from "../../videos/Call of the Black Wing Intro From Mhairi Bryce.mp4";
 
 const whispersDesc = (
   <p>
@@ -97,6 +98,15 @@ function MainPage() {
           <img className="arrow arrow-two" src={arrow} alt="Arrow" />
         </div>
         <div className="books">
+          <div className="video-container">
+            <h2>A reading from Call of the Black Wing</h2>
+            <h3>Reader: Mhairi Bryce</h3>
+            <iframe
+              title="Call of the Black Wing Video"
+              className="embed-video"
+              src={CallVideo}
+            ></iframe>
+          </div>
           <BookItem
             bookItemContent={whispersDesc}
             bookItemTitle="Whispers To A Crow"
